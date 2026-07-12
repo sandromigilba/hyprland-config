@@ -1,0 +1,1 @@
+2026-07-12 15:10:30.829 [error] Failed to set sticky bit on /tmp/kanbara-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/kanbara-code-oss-zsh'

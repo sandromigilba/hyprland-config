@@ -1,0 +1,42 @@
+/* Container Editor Monospace */
+.tokyo-night-editor {
+  background-color: #1a1b26;
+  color: #a9b1d6;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid #24283b;
+}
+
+/* Syntax Highlighting */
+.tokyo-night-editor .comment {
+  color: #565f89;
+  font-style: italic;
+}
+
+.tokyo-night-editor .keyword {
+  color: #bb9af7;
+  font-weight: bold;
+}
+
+.tokyo-night-editor .function {
+  color: #7aa2f7;
+}
+
+.tokyo-night-editor .string {
+  color: #9ece6a;
+}
+
+.tokyo-night-editor .number {
+  color: #ff9e64;
+}
+
+.tokyo-night-editor .variable {
+  color: #e0af68;
+}
+
+.tokyo-night-editor .operator-tag {
+  color: #f7768e;
+}

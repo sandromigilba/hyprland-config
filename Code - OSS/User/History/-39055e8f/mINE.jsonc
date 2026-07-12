@@ -1,0 +1,175 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 42,
+    // "margin-top": 10,
+    "margin-left": 14,
+    "margin-right": 14,
+    "spacing": 10,
+
+    // =========================
+    // MODULES
+    // =========================
+
+    "modules-left": [
+        "group/left"
+    ],
+
+    "modules-center": [
+        "group/center"
+    ],
+
+    "modules-right": [
+        "group/right"
+    ],
+
+    // =========================
+    // GROUP CAPSULES
+    // =========================
+
+    "group/left": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300
+        },
+        "modules": [
+            "hyprland/workspaces"
+            // "custom/media"
+        ]
+    },
+
+    "group/center": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 1000
+        },
+        "modules": [
+            "space",
+            "hyprland/window",
+            "space"
+        ]
+    },
+
+    "group/right": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 1000
+        },
+        "modules": [
+            "clock",
+            "network",
+            "pulseaudio",
+            "backlight",
+            "battery",
+            "custom/power"
+        ]
+    },
+
+    // =========================
+    // WORKSPACES
+    // =========================
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "persistent-workspaces": {
+            "*": [1]
+        },
+        "format": "❄️"
+    },
+
+    // =========================
+    // WINDOW TITLE
+    // =========================
+    "hyprland/window": {
+        "max-length": 35,
+        "format": "{}",
+        "separate-outputs": true,
+        "rewrite": {
+            "^\\s*$": "Welcome back master!!"
+        }
+    },
+
+    "space": {
+        "format": "mm"
+    },
+    // =========================
+    // CLOCK
+    // =========================
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    // =========================
+    // NETWORK
+    // =========================
+
+    "network": {
+        "format-wifi": "󰤨  {signalStrength}%",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭"
+    },
+
+    // =========================
+    // AUDIO
+    // =========================
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // =========================
+    // BRIGHTNESS
+    // =========================
+
+    "backlight": {
+        "format": "󰃟 {percent}%"
+    },
+
+    // =========================
+    // BATTERY
+    // =========================
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "{capacity}% 󰂄",
+        "format-icons": [
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
+    },
+
+    // =========================
+    // POWER
+    // =========================
+
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "wlogout"
+    }
+}

@@ -1,0 +1,14 @@
+2026-07-09 03:49:15.284 [info] I0709 03:49:15.283920 28262 server.go:1296] Starting language server process with pid 28262
+2026-07-09 03:49:15.284 [info] I0709 03:49:15.284107 28262 server.go:336] Setting GOMAXPROCS to 4
+2026-07-09 03:49:15.286 [info] I0709 03:49:15.285695 28262 server.go:479] Language server will attempt to listen on host localhost
+2026-07-09 03:49:15.287 [info] I0709 03:49:15.287449 28262 server.go:493] Language server listening on random port at 37741 for HTTPS (gRPC)
+2026-07-09 03:49:15.287 [info] I0709 03:49:15.287687 28262 server.go:500] Language server listening on random port at 36627 for HTTP
+2026-07-09 03:49:15.751 [info] I0709 03:49:15.750421 28262 server.go:472] Created extension server client at port 43825
+2026-07-09 03:49:15.789 [info] I0709 03:49:15.789336 28262 manager.go:92] Creating trajectory store manager with proto store and SQLite store
+2026-07-09 03:49:16.651 [info] I0709 03:49:16.650910 28262 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4d101edc3b02db2
+2026-07-09 03:49:17.263 [info] I0709 03:49:17.262519 28262 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x62a8e65a9ae367b5
+2026-07-09 03:49:17.267 [info] I0709 03:49:17.267311 28262 server.go:2283] Auth succeeded, refreshing features and managers
+2026-07-09 03:49:17.363 [info] I0709 03:49:17.362519 28262 server.go:2289] State refresh took 95ms
+2026-07-09 03:49:17.383 [info] (Antigravity IDE) 2026-07-09 03:49:17.381 [INFO]: Language server started
+2026-07-09 03:49:17.409 [info] I0709 03:49:17.405476 28262 server.go:1944] initialized server successfully in 2.121335916s
+2026-07-09 03:49:17.447 [info] (Antigravity IDE) 2026-07-09 03:49:17.447 [INFO]: LS lspClient started successfully

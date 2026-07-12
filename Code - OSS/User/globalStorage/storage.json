@@ -1,0 +1,138 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "c7d939df24cb8d1badfeb0cfdc8be44326ada79246c82f86a0782a3a7e1bc168",
+    "telemetry.devDeviceId": "12e37d36-becb-4815-8d72-1f1a99bc20e2",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kanbara/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/kanbara/Documents/accelerate-dots": "__default__profile__",
+            "file:///home/kanbara/.config/hypr": "__default__profile__",
+            "file:///home/kanbara/.config": "__default__profile__",
+            "file:///home/kanbara/Documents": "__default__profile__",
+            "file:///etc/xdg": "__default__profile__",
+            "file:///etc/xdg/waybar": "__default__profile__",
+            "file:///home/kanbara/Documents/another-dots": "__default__profile__",
+            "file:///home/kanbara/.config/kitty": "__default__profile__",
+            "file:///home/kanbara/.config/cava/shaders": "__default__profile__",
+            "file:///home/kanbara/.config/wofi": "__default__profile__",
+            "file:///home/kanbara/Documents/.config": "__default__profile__",
+            "file:///home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel": "__default__profile__",
+            "file:///home/kanbara/Documents/sandrofiles/code/firebug": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1a1b26",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#787c99",
+            "background": "#1a1b26",
+            "editorBackground": "#1a1b26",
+            "titleBarBackground": "#16161e",
+            "titleBarBorder": "#101014",
+            "activityBarBackground": "#16161e",
+            "activityBarBorder": "#16161e",
+            "sideBarBackground": "#16161e",
+            "sideBarBorder": "#101014",
+            "statusBarBackground": "#16161e",
+            "statusBarBorder": "#101014",
+            "statusBarNoFolderBackground": "#16161e",
+            "windowBorder": "#0d0f17"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "25ec98ca86e902aaa06989c6b8bb5b9d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2cc4661b5ebff9ce16ed53728919b22c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "87ab8e949d1031bb2c41faaf5bf5a52c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "066829ecc5e35e4b8e574a47ea9c2061": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "14346579d58b12ef9d959283bdb71718": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7bbc4902948725f5d3df7983c5864dce": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ec19bcab955bb2de729ab567ecaa7fc8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "676fa0457ccdbf1ce877d7ef62befece": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "70ab1118f716e7b8952b0e1e20145e1c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d8991fa86171205d6dab145e77b66656": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fc839bdd82468c8803b2f783115803c0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1bb121a1da53f8d135e67d3c47ecf4fc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1bb2297ea83cd68dd791e6f48c12800e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/kanbara/.config",
+            "backupPath": "/home/kanbara/.config/Code - OSS/Backups/b2d7eb1c215667ef06170f8aef872248",
+            "uiState": {
+                "mode": 0,
+                "x": 1,
+                "y": 0,
+                "width": 910,
+                "height": 932
+            }
+        },
+        "openedWindows": []
+    }
+}

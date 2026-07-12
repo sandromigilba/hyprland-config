@@ -1,0 +1,173 @@
+/* =========================================================
+   GLOBAL & TYPOGRAPHY
+========================================================= */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", FontAwesome, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    min-height: 0;
+    transition: all 0.25s ease;
+    
+    /* Memastikan tidak ada background liar yang bocor */
+    background: transparent; 
+}
+
+/* =========================================================
+   WAYBAR FLOATING WINDOW
+========================================================= */
+
+window#waybar {
+    background: transparent;
+}
+
+/* Hidden state */
+window#waybar.hidden {
+    opacity: 0.15;
+}
+
+/* =========================================================
+   CAPSULE GROUPS (Dark Charcoal Grey + Shadow Melayang)
+========================================================= */
+
+.modules-left,
+.modules-center,
+.modules-right {
+    /* background: #202022;  */
+    background: rgba(30, 30, 46, 0.757);
+    /* box-shadow: 0 0 0 1px rgb(79, 0, 196);        */
+    
+    border-radius: 11px;
+    padding: 1px 10px;
+    margin: 7px;
+    
+    /* ─── KUNCI ANIMASI JELLY ─── */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.modules-left {
+    box-shadow: 5px 5px 2px rgba(40, 40, 40, 0.15), 
+        5px 5px 2px rgba(55, 55, 55, 0.2)
+}
+
+.modules-center {
+    box-shadow: 0 5px 2px rgba(40, 40, 40, 0.15), 
+        0px 5px 2px rgba(55, 55, 55, 0.2)
+}
+
+.modules-right {
+    box-shadow: -5px 5px 2px rgba(40, 40, 40, 0.15), 
+        -5px 5px 2px rgba(55, 55, 55, 0.2)
+}
+
+/* =========================================================
+   MODULE BASE & EQUAL PADDING (Teks Silver Grey)
+========================================================= */
+
+#window,
+#network,
+#pulseaudio,
+#backlight,
+#battery,
+#clock,
+#custom-power {
+    padding: 0 10px; 
+    margin: 4px 0;
+    /* color: #dbdbdb; */
+    /* color: #b587ff; */
+    color: lightblue;
+    font-weight: bold;
+}
+
+/* =========================================================
+   WINDOW TITLE (hyprland/window)
+========================================================= */
+
+/* =========================================================
+   WORKSPACES (Gaya Kapsul Lonjong Horizontal)
+========================================================= */
+
+#workspaces {
+    margin: 0 4px;
+    padding: 0;
+}
+
+#workspaces button {
+    padding: 0;
+    margin: 4px 3px;             
+    
+    min-width: 22px;
+    min-height: 22px;
+    border-radius: 7px;
+    
+    /* Warna kepingan salju saat tidak aktif (Muted Grey) */
+    font-size: 11px;
+    color: rgba(219, 219, 219, 0.3); 
+    
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+    font-size: 12px;
+    font-weight: bold;
+    
+    min-width: 34px; 
+    background: rgba(30, 30, 46, 0.757);
+    /* box-shadow: 0 0 0 1px rgb(79, 0, 196);      */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35), 
+            0 0 5px rgba(0, 0, 0, 0.2),
+            inset 0 0 0 rgba(255, 255, 255, 0.05);  
+}
+
+#workspaces button.urgent {
+    color: #ff5555;
+    background-color: rgba(255, 85, 85, 0.15);
+}
+
+/* Warna fungsional yang disesuaikan agar tidak terlalu mencolok di tema gelap */
+#battery.charging,
+#battery.plugged {
+    color: #83ff52; /* Biru Neon Cyber */
+}
+
+#battery.warning {
+    color: #ffb454; /* Amber hangat */
+}
+
+#battery.critical:not(.charging) {
+    color: #ff5555; /* Merah tegas */
+    animation-name: blink;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    to {
+        opacity: 0.45;
+    }
+}
+
+#network.disconnected {
+    color: #ff5555;
+}
+
+/* =========================================================
+   POWER BUTTON (custom/power)
+========================================================= */
+
+#custom-power {
+    color: #dbdbdb;
+}
+
+#custom-power:hover {
+    color: #ff5555; /* Berubah merah saat ingin memanggil wlogout ketupat kamu */
+}

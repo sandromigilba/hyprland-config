@@ -1,0 +1,326 @@
+2026-07-09 02:18:02.568 [info] I0709 02:18:02.567516  6748 server.go:1296] Starting language server process with pid 6748
+2026-07-09 02:18:02.568 [info] I0709 02:18:02.567688  6748 server.go:336] Setting GOMAXPROCS to 4
+2026-07-09 02:18:02.569 [info] I0709 02:18:02.569330  6748 server.go:479] Language server will attempt to listen on host localhost
+2026-07-09 02:18:02.571 [info] I0709 02:18:02.571173  6748 server.go:493] Language server listening on random port at 45905 for HTTPS (gRPC)
+2026-07-09 02:18:02.571 [info] I0709 02:18:02.571420  6748 server.go:500] Language server listening on random port at 44207 for HTTP
+2026-07-09 02:18:03.546 [info] I0709 02:18:03.545625  6748 server.go:472] Created extension server client at port 34263
+2026-07-09 02:18:03.593 [info] I0709 02:18:03.592479  6748 manager.go:92] Creating trajectory store manager with proto store and SQLite store
+2026-07-09 02:18:03.600 [info] E0709 02:18:03.600434  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.610 [info] W0709 02:18:03.609477  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.610 [info] E0709 02:18:03.609565  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.610 [info] W0709 02:18:03.610457  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.610 [info] E0709 02:18:03.610506  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.611 [info] E0709 02:18:03.611203  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.612 [info] I0709 02:18:03.612205  6748 server.go:2283] Auth succeeded, refreshing features and managers
+2026-07-09 02:18:03.612 [info] E0709 02:18:03.612349  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.613 [info] W0709 02:18:03.613319  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.613 [info] E0709 02:18:03.613371  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.614 [info] W0709 02:18:03.614253  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.614 [info] E0709 02:18:03.614301  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.615 [info] E0709 02:18:03.615224  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.616 [info] I0709 02:18:03.616324  6748 server.go:2289] State refresh took 4ms
+2026-07-09 02:18:03.643 [info] (Antigravity IDE) 2026-07-09 02:18:03.641 [INFO]: Language server started
+2026-07-09 02:18:03.674 [info] W0709 02:18:03.633251  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.675 [info] E0709 02:18:03.633351  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.675 [info] W0709 02:18:03.634854  6748 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.675 [info] E0709 02:18:03.634937  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:18:03.675 [info] E0709 02:18:03.636039  6748 server.go:612] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-07-09 02:18:03.675 [info] W0709 02:18:03.636093  6748 client.go:81] failed to set auth token
+2026-07-09 02:18:03.675 [info] I0709 02:18:03.671247  6748 server.go:1944] initialized server successfully in 1.103509663s
+2026-07-09 02:18:03.735 [info] (Antigravity IDE) 2026-07-09 02:18:03.735 [INFO]: LS lspClient started successfully
+2026-07-09 02:19:03.594 [info] E0709 02:19:03.594023  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:19:03.595 [info] W0709 02:19:03.595255  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:19:03.595 [info] E0709 02:19:03.595317  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:19:03.605 [info] W0709 02:19:03.604302  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:19:03.605 [info] E0709 02:19:03.604451  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:19:03.606 [info] E0709 02:19:03.606409  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.594 [info] E0709 02:20:03.592985  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.594 [info] W0709 02:20:03.593802  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.594 [info] E0709 02:20:03.593878  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.595 [info] W0709 02:20:03.595224  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.595 [info] E0709 02:20:03.595276  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:20:03.596 [info] E0709 02:20:03.596082  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.594 [info] E0709 02:21:03.594140  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.595 [info] W0709 02:21:03.595312  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.595 [info] E0709 02:21:03.595420  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.597 [info] W0709 02:21:03.597031  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.597 [info] E0709 02:21:03.597118  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:21:03.599 [info] E0709 02:21:03.598581  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.594 [info] E0709 02:22:03.593701  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.595 [info] W0709 02:22:03.594695  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.595 [info] E0709 02:22:03.594763  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.598 [info] W0709 02:22:03.595987  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.598 [info] E0709 02:22:03.596043  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:22:03.598 [info] E0709 02:22:03.596907  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.594 [info] E0709 02:23:03.593468  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.595 [info] W0709 02:23:03.594385  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.595 [info] E0709 02:23:03.594477  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.595 [info] W0709 02:23:03.595392  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.595 [info] E0709 02:23:03.595509  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:23:03.596 [info] E0709 02:23:03.596391  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.593 [info] E0709 02:24:03.593419  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.594 [info] W0709 02:24:03.594271  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.594 [info] E0709 02:24:03.594341  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.595 [info] W0709 02:24:03.595245  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.595 [info] E0709 02:24:03.595311  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:24:03.596 [info] E0709 02:24:03.596168  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.593 [info] E0709 02:25:03.593075  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.594 [info] W0709 02:25:03.594210  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.594 [info] E0709 02:25:03.594312  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.596 [info] W0709 02:25:03.595559  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.596 [info] E0709 02:25:03.595634  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:25:03.597 [info] E0709 02:25:03.597004  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.595 [info] E0709 02:26:03.594373  6748 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.595 [info] W0709 02:26:03.595499  6748 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.595 [info] E0709 02:26:03.595569  6748 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.596 [info] W0709 02:26:03.596392  6748 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.596 [info] E0709 02:26:03.596440  6748 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:03.597 [info] E0709 02:26:03.597224  6748 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:42.839 [info] I0709 02:26:42.838922  6748 server.go:2149] Got signal terminated, shutting down
+2026-07-09 02:26:42.839 [info] I0709 02:26:42.839015  6748 server.go:2190] Language server shutting down
+2026-07-09 02:26:42.860 [info] (Antigravity IDE) 2026-07-09 02:26:42.859 [INFO]: Language server exited with code 0
+2026-07-09 02:26:43.041 [info] I0709 02:26:43.040328  8522 server.go:1296] Starting language server process with pid 8522
+2026-07-09 02:26:43.041 [info] I0709 02:26:43.040783  8522 server.go:336] Setting GOMAXPROCS to 4
+2026-07-09 02:26:43.045 [info] I0709 02:26:43.044881  8522 server.go:479] Language server will attempt to listen on host localhost
+2026-07-09 02:26:43.048 [info] I0709 02:26:43.047723  8522 server.go:493] Language server listening on fixed port at 45905 for HTTPS (gRPC)
+2026-07-09 02:26:43.048 [info] I0709 02:26:43.048301  8522 server.go:500] Language server listening on fixed port at 34777 for HTTP
+2026-07-09 02:26:44.270 [info] I0709 02:26:44.269532  8522 server.go:472] Created extension server client at port 34263
+2026-07-09 02:26:44.292 [info] I0709 02:26:44.292098  8522 manager.go:92] Creating trajectory store manager with proto store and SQLite store
+2026-07-09 02:26:44.306 [info] E0709 02:26:44.306437  8522 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.318 [info] W0709 02:26:44.317416  8522 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.318 [info] E0709 02:26:44.317536  8522 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.319 [info] W0709 02:26:44.318892  8522 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.319 [info] E0709 02:26:44.318982  8522 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.320 [info] E0709 02:26:44.320558  8522 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.322 [info] I0709 02:26:44.321900  8522 server.go:2283] Auth succeeded, refreshing features and managers
+2026-07-09 02:26:44.322 [info] E0709 02:26:44.322121  8522 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.323 [info] W0709 02:26:44.323288  8522 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.323 [info] E0709 02:26:44.323381  8522 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.325 [info] W0709 02:26:44.325257  8522 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.325 [info] E0709 02:26:44.325400  8522 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.328 [info] E0709 02:26:44.327792  8522 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.330 [info] I0709 02:26:44.330272  8522 server.go:2289] State refresh took 8ms
+2026-07-09 02:26:44.368 [info] (Antigravity IDE) 2026-07-09 02:26:44.367 [INFO]: Language server started
+2026-07-09 02:26:44.380 [info] W0709 02:26:44.368369  8522 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.380 [info] E0709 02:26:44.368538  8522 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.380 [info] W0709 02:26:44.370338  8522 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.380 [info] E0709 02:26:44.370445  8522 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:44.380 [info] E0709 02:26:44.371644  8522 server.go:612] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-07-09 02:26:44.380 [info] W0709 02:26:44.371726  8522 client.go:81] failed to set auth token
+2026-07-09 02:26:44.380 [info] I0709 02:26:44.375474  8522 server.go:1944] initialized server successfully in 1.334623561s
+2026-07-09 02:26:44.400 [info] (Antigravity IDE) 2026-07-09 02:26:44.400 [INFO]: LS lspClient started successfully
+2026-07-09 02:26:48.841 [info] I0709 02:26:48.841306  8522 server.go:2149] Got signal terminated, shutting down
+2026-07-09 02:26:48.841 [info] I0709 02:26:48.841385  8522 server.go:2190] Language server shutting down
+2026-07-09 02:26:50.112 [info] (Antigravity IDE) 2026-07-09 02:26:50.112 [INFO]: Language server exited with code 0
+2026-07-09 02:26:50.288 [info] I0709 02:26:50.287952  8761 server.go:1296] Starting language server process with pid 8761
+2026-07-09 02:26:50.288 [info] I0709 02:26:50.288181  8761 server.go:336] Setting GOMAXPROCS to 4
+2026-07-09 02:26:50.291 [info] I0709 02:26:50.290652  8761 server.go:479] Language server will attempt to listen on host localhost
+2026-07-09 02:26:50.293 [info] I0709 02:26:50.293125  8761 server.go:493] Language server listening on fixed port at 45905 for HTTPS (gRPC)
+2026-07-09 02:26:50.293 [info] I0709 02:26:50.293415  8761 server.go:500] Language server listening on fixed port at 39221 for HTTP
+2026-07-09 02:26:51.219 [info] I0709 02:26:51.219145  8761 server.go:472] Created extension server client at port 34263
+2026-07-09 02:26:51.240 [info] I0709 02:26:51.240205  8761 manager.go:92] Creating trajectory store manager with proto store and SQLite store
+2026-07-09 02:26:51.252 [info] E0709 02:26:51.252568  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.264 [info] W0709 02:26:51.263584  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.264 [info] E0709 02:26:51.263878  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.265 [info] W0709 02:26:51.265270  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.265 [info] E0709 02:26:51.265351  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.266 [info] E0709 02:26:51.266482  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.268 [info] I0709 02:26:51.268156  8761 server.go:2283] Auth succeeded, refreshing features and managers
+2026-07-09 02:26:51.268 [info] E0709 02:26:51.268450  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.270 [info] W0709 02:26:51.269880  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.270 [info] E0709 02:26:51.269960  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.272 [info] W0709 02:26:51.271576  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.272 [info] E0709 02:26:51.271651  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.273 [info] E0709 02:26:51.273421  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.275 [info] I0709 02:26:51.274997  8761 server.go:2289] State refresh took 6ms
+2026-07-09 02:26:51.307 [info] (Antigravity IDE) 2026-07-09 02:26:51.306 [INFO]: Language server started
+2026-07-09 02:26:51.317 [info] W0709 02:26:51.307699  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.317 [info] E0709 02:26:51.307880  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.317 [info] W0709 02:26:51.309519  8761 log_context.go:117] Cache(userInfo): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.317 [info] E0709 02:26:51.309603  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:26:51.317 [info] E0709 02:26:51.310817  8761 server.go:612] Failed to get OAuth token: error getting token source from auth provider: state syncing error: key not found
+2026-07-09 02:26:51.317 [info] W0709 02:26:51.310906  8761 client.go:81] failed to set auth token
+2026-07-09 02:26:51.317 [info] I0709 02:26:51.314317  8761 server.go:1944] initialized server successfully in 1.026037688s
+2026-07-09 02:26:51.337 [info] (Antigravity IDE) 2026-07-09 02:26:51.337 [INFO]: LS lspClient started successfully
+2026-07-09 02:27:51.242 [info] E0709 02:27:51.241721  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:27:51.243 [info] W0709 02:27:51.242900  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:27:51.243 [info] E0709 02:27:51.243005  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:27:51.244 [info] W0709 02:27:51.244497  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:27:51.244 [info] E0709 02:27:51.244618  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:27:51.246 [info] E0709 02:27:51.245880  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.242 [info] E0709 02:28:51.241499  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.243 [info] W0709 02:28:51.242494  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.243 [info] E0709 02:28:51.242607  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.244 [info] W0709 02:28:51.243808  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.244 [info] E0709 02:28:51.243887  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:28:51.245 [info] E0709 02:28:51.245309  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.241 [info] E0709 02:29:51.241031  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.242 [info] W0709 02:29:51.242123  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.242 [info] E0709 02:29:51.242221  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.244 [info] W0709 02:29:51.243731  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.244 [info] E0709 02:29:51.243869  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:29:51.245 [info] E0709 02:29:51.245138  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.241 [info] E0709 02:30:51.240515  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.242 [info] W0709 02:30:51.241674  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.242 [info] E0709 02:30:51.241795  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.243 [info] W0709 02:30:51.243255  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.243 [info] E0709 02:30:51.243330  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:30:51.244 [info] E0709 02:30:51.244364  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.242 [info] E0709 02:31:51.240617  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.242 [info] W0709 02:31:51.241534  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.242 [info] E0709 02:31:51.241606  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.243 [info] W0709 02:31:51.242795  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.243 [info] E0709 02:31:51.242869  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:31:51.243 [info] E0709 02:31:51.243749  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.242 [info] E0709 02:32:51.240958  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.243 [info] W0709 02:32:51.242240  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.243 [info] E0709 02:32:51.242355  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.243 [info] W0709 02:32:51.243323  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.243 [info] E0709 02:32:51.243394  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:32:51.244 [info] E0709 02:32:51.244364  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.241 [info] E0709 02:33:51.240745  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.242 [info] W0709 02:33:51.241895  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.242 [info] E0709 02:33:51.241975  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.243 [info] W0709 02:33:51.243090  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.243 [info] E0709 02:33:51.243155  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:33:51.244 [info] E0709 02:33:51.244045  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.241 [info] E0709 02:34:51.240902  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.242 [info] W0709 02:34:51.241833  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.242 [info] E0709 02:34:51.241915  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.243 [info] W0709 02:34:51.243101  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.243 [info] E0709 02:34:51.243158  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:34:51.244 [info] E0709 02:34:51.244100  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.242 [info] E0709 02:35:51.241474  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.243 [info] W0709 02:35:51.243114  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.243 [info] E0709 02:35:51.243264  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.245 [info] W0709 02:35:51.245003  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.245 [info] E0709 02:35:51.245132  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:35:51.246 [info] E0709 02:35:51.246376  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.242 [info] E0709 02:36:51.241775  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.244 [info] W0709 02:36:51.242703  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.244 [info] E0709 02:36:51.242779  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.244 [info] W0709 02:36:51.243757  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.244 [info] E0709 02:36:51.243849  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:36:51.244 [info] E0709 02:36:51.244660  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.241 [info] E0709 02:37:51.240838  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.242 [info] W0709 02:37:51.241606  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.242 [info] E0709 02:37:51.241663  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.243 [info] W0709 02:37:51.242897  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.243 [info] E0709 02:37:51.242959  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:37:51.244 [info] E0709 02:37:51.243865  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.242 [info] E0709 02:38:51.241207  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.242 [info] W0709 02:38:51.242117  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.242 [info] E0709 02:38:51.242188  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.243 [info] W0709 02:38:51.243234  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.243 [info] E0709 02:38:51.243290  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:38:51.244 [info] E0709 02:38:51.244190  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.242 [info] E0709 02:39:51.241614  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.242 [info] W0709 02:39:51.242547  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.242 [info] E0709 02:39:51.242628  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.244 [info] W0709 02:39:51.243983  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.244 [info] E0709 02:39:51.244047  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:39:51.245 [info] E0709 02:39:51.245121  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.241 [info] E0709 02:40:51.241029  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.242 [info] W0709 02:40:51.241776  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.242 [info] E0709 02:40:51.241857  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.243 [info] W0709 02:40:51.242838  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.243 [info] E0709 02:40:51.242876  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:40:51.243 [info] E0709 02:40:51.243582  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.242 [info] E0709 02:41:51.241214  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.242 [info] W0709 02:41:51.242137  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.242 [info] E0709 02:41:51.242217  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.243 [info] W0709 02:41:51.243502  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.244 [info] E0709 02:41:51.243555  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:41:51.244 [info] E0709 02:41:51.244391  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.242 [info] E0709 02:42:51.241387  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.242 [info] W0709 02:42:51.242383  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.242 [info] E0709 02:42:51.242495  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.244 [info] W0709 02:42:51.243571  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.244 [info] E0709 02:42:51.243640  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:42:51.245 [info] E0709 02:42:51.245079  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.242 [info] E0709 02:43:51.241275  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.242 [info] W0709 02:43:51.242377  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.242 [info] E0709 02:43:51.242497  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.243 [info] W0709 02:43:51.243352  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.243 [info] E0709 02:43:51.243401  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:43:51.244 [info] E0709 02:43:51.244346  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.242 [info] E0709 02:44:51.241062  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.242 [info] W0709 02:44:51.242101  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.242 [info] E0709 02:44:51.242176  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.243 [info] W0709 02:44:51.243137  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.243 [info] E0709 02:44:51.243195  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:44:51.244 [info] E0709 02:44:51.244293  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.242 [info] E0709 02:45:51.241506  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.243 [info] W0709 02:45:51.242691  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.243 [info] E0709 02:45:51.242778  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.244 [info] W0709 02:45:51.244089  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.244 [info] E0709 02:45:51.244149  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:45:51.246 [info] E0709 02:45:51.245683  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.242 [info] E0709 02:46:51.241983  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.243 [info] W0709 02:46:51.242714  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.243 [info] E0709 02:46:51.242769  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.243 [info] W0709 02:46:51.243578  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.243 [info] E0709 02:46:51.243620  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:46:51.245 [info] E0709 02:46:51.244858  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.241 [info] E0709 02:47:51.240718  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.242 [info] W0709 02:47:51.241984  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.242 [info] E0709 02:47:51.242088  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.244 [info] W0709 02:47:51.243767  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.244 [info] E0709 02:47:51.243894  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:47:51.245 [info] E0709 02:47:51.245369  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.242 [info] E0709 02:48:51.241162  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.243 [info] W0709 02:48:51.242790  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.243 [info] E0709 02:48:51.242894  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.244 [info] W0709 02:48:51.244038  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.244 [info] E0709 02:48:51.244096  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:48:51.246 [info] E0709 02:48:51.245150  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.241 [info] E0709 02:49:51.241116  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.242 [info] W0709 02:49:51.241927  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.242 [info] E0709 02:49:51.241980  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.243 [info] W0709 02:49:51.242883  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.243 [info] E0709 02:49:51.242929  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:49:51.244 [info] E0709 02:49:51.243928  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.242 [info] E0709 02:50:51.241438  8761 log.go:398] Failed to poll ListExperiments: error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.242 [info] W0709 02:50:51.242546  8761 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.242 [info] E0709 02:50:51.242627  8761 log.go:398] error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.243 [info] W0709 02:50:51.243541  8761 log_context.go:117] Cache(availableModels): Singleflight refresh failed: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.243 [info] E0709 02:50:51.243598  8761 log.go:398] failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:50:51.244 [info] E0709 02:50:51.244653  8761 log.go:398] Failed to poll FetchAvailableModels: failed to get load code assist response: error getting token source: state syncing error: key not found
+2026-07-09 02:51:36.397 [info] I0709 02:51:36.396025 14417 server.go:1296] Starting language server process with pid 14417
+2026-07-09 02:51:36.397 [info] I0709 02:51:36.396204 14417 server.go:336] Setting GOMAXPROCS to 4
+2026-07-09 02:51:36.398 [info] I0709 02:51:36.398187 14417 server.go:479] Language server will attempt to listen on host localhost
+2026-07-09 02:51:36.402 [info] I0709 02:51:36.401386 14417 server.go:493] Language server listening on random port at 39291 for HTTPS (gRPC)
+2026-07-09 02:51:36.402 [info] I0709 02:51:36.402006 14417 server.go:500] Language server listening on random port at 41519 for HTTP
+2026-07-09 02:51:37.143 [info] I0709 02:51:37.143107 14417 server.go:472] Created extension server client at port 44507
+2026-07-09 02:51:37.195 [info] I0709 02:51:37.194747 14417 manager.go:92] Creating trajectory store manager with proto store and SQLite store
+2026-07-09 02:51:40.196 [info] E0709 02:51:40.195935 14417 log.go:398] WaitForReady failed: context deadline exceeded
+2026-07-09 02:51:40.202 [info] I0709 02:51:40.201012 14417 server.go:2283] Auth succeeded, refreshing features and managers
+2026-07-09 02:51:48.786 [info] E0709 02:51:48.785773 14417 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp 192.168.1.2:38348->216.239.34.223:443: read: connection reset by peer
+2026-07-09 02:51:51.782 [info] I0709 02:51:51.782268 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x625dc0cacbcfca2c
+2026-07-09 02:51:52.842 [info] I0709 02:51:52.842384 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc9400852553787b1
+2026-07-09 02:51:54.344 [info] I0709 02:51:54.343384 14417 server.go:2289] State refresh took 14142ms
+2026-07-09 02:51:54.368 [info] (Antigravity IDE) 2026-07-09 02:51:54.365 [INFO]: Language server started
+2026-07-09 02:51:54.400 [info] I0709 02:51:54.395518 14417 server.go:1944] initialized server successfully in 17.999260703s
+2026-07-09 02:51:54.447 [info] (Antigravity IDE) 2026-07-09 02:51:54.447 [INFO]: LS lspClient started successfully
+2026-07-09 02:58:34.606 [info] I0709 02:58:34.606055 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfa973ff8b0504c06
+2026-07-09 02:58:34.942 [info] I0709 02:58:34.942060 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb7cc8c49ba263c7d
+2026-07-09 03:03:37.808 [info] I0709 03:03:37.807364 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xf1d9875ed5c0a215
+2026-07-09 03:03:38.372 [info] I0709 03:03:38.371306 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x286023dbd4c1278b
+2026-07-09 03:08:42.732 [info] I0709 03:08:42.731263 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8865dae27bb2b236
+2026-07-09 03:08:43.619 [info] I0709 03:08:43.618242 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x84d2699ccf4c4ff6
+2026-07-09 03:14:38.585 [info] I0709 03:14:38.584124 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfcb1877cd17306b3
+2026-07-09 03:14:39.506 [info] I0709 03:14:39.505318 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf6a95130e27938d7
+2026-07-09 03:20:37.701 [info] I0709 03:20:37.700707 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7ed36dd386394811
+2026-07-09 03:20:38.117 [info] I0709 03:20:38.116376 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x6857fda85e4af26d
+2026-07-09 03:21:48.234 [info] E0709 03:21:48.233832 14417 interceptor.go:74] /exa.language_server_pb.LanguageServerService/AcknowledgeCodeActionStep (unknown): run state not found
+2026-07-09 03:22:38.092 [info] I0709 03:22:38.091330 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa7dd1f172b35c750
+2026-07-09 03:22:38.651 [info] I0709 03:22:38.651062 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd081b85244c3f52b
+2026-07-09 03:27:27.668 [info] W0709 03:27:27.667673 14417 workspace_manager.go:454] Too many changes in DidChangeWatchedFiles: 1305
+2026-07-09 03:28:36.131 [info] I0709 03:28:36.130646 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xb4c19dd278fd5d46
+2026-07-09 03:28:37.127 [info] I0709 03:28:37.126602 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x595c829119ceb6f5
+2026-07-09 03:33:39.090 [info] I0709 03:33:39.089534 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x8d81ea5d6f5b722b
+2026-07-09 03:33:40.557 [info] I0709 03:33:40.557324 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4c7c17cc6bb1783a
+2026-07-09 03:38:45.364 [info] I0709 03:38:45.363213 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6ee232a837bdfb34
+2026-07-09 03:38:45.386 [info] I0709 03:38:45.385568 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2f0bbe585e2f4bea
+2026-07-09 03:44:41.667 [info] I0709 03:44:41.667169 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x954b950b21e31869
+2026-07-09 03:44:42.022 [info] I0709 03:44:42.022145 14417 http_helpers.go:183] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xb9f828a069d4b0c7

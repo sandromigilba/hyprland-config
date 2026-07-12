@@ -1,0 +1,192 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 42,
+    // "margin-top": 10,
+    "margin-left": 14,
+    "margin-right": 14,
+    "spacing": 10,
+
+    // =========================
+    // MODULES
+    // =========================
+
+    "modules-left": [
+        "group/left"
+    ],
+
+    "modules-center": [
+        "group/center"
+    ],
+
+    "modules-right": [
+        "group/right"
+    ],
+
+    // =========================
+    // GROUP CAPSULES
+    // =========================
+
+    "group/left": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300
+        },
+        "modules": [
+            "hyprland/workspaces",
+            // "custom/media"
+        ]
+    },
+
+    "group/center": {
+        "orientation": "horizontal",
+        "modules": [
+            "hyprland/window"
+        ]
+    },
+
+    "group/right": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300
+        },
+        "modules": [
+            "network",
+            "pulseaudio",
+            "backlight",
+            "battery",
+            "clock",
+            "tray",
+            "custom/power"
+        ]
+    },
+
+    // =========================
+    // WORKSPACES
+    // =========================
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "󰆍",
+            "2": "󰈹",
+            "3": "󰨞",
+            "4": "󰎄",
+            "5": "󰙯",
+            "focused": "",
+            "default": ""
+        }
+    },
+
+    // =========================
+    // WINDOW TITLE
+    // =========================
+
+    "hyprland/window": {
+        "max-length": 35,
+        "format": "  {}",
+        "separate-outputs": true
+    },
+
+    // =========================
+    // CLOCK
+    // =========================
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    // =========================
+    // AUDIO
+    // =========================
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // =========================
+    // NETWORK
+    // =========================
+
+    "network": {
+        "format-wifi": "󰤨  {signalStrength}%",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭"
+    },
+
+    // =========================
+    // BATTERY
+    // =========================
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 󰂄",
+        "format-icons": [
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
+    },
+
+    // =========================
+    // BRIGHTNESS
+    // =========================
+
+    "backlight": {
+        "format": "{percent}% 󰃟"
+    },
+
+    // =========================
+    // MEDIA
+    // =========================
+
+    "custom/media": {
+        "format": "{}",
+        "return-type": "json",
+        "max-length": 30,
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+    },
+
+    // =========================
+    // TRAY
+    // =========================
+
+    "tray": {
+        "spacing": 10
+    },
+
+    // =========================
+    // POWER
+    // =========================
+
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "wlogout"
+    }
+}

@@ -1,0 +1,71 @@
+
+/* Latar belakang layar (Backdrop) saat wlogout aktif */
+window {
+    background-color: rgba(30, 30, 46, 0.4); 
+}
+
+/* Container utama tempat ketupat-ketupat berjejer */
+grid {
+    margin: 300px 40px; /* Jarak atas/bawah agar barisan ketupat pas di tengah layar */
+    background-color: rgba(30, 30, 46, 0.75); 
+    border: 2px solid rgba(189, 147, 249, 0.2);
+    border-radius: 24px;
+    padding: 40px; /* Padding diperbesar memberi ruang untuk sudut ketupat */
+}
+
+/* ─── DESAIN UTAMA TOMBOL KETUPAT ─── */
+button {
+    color: #f8f8f2;
+    background-color: rgba(40, 42, 54, 0.85); 
+    border: 2px solid #bd93f9;               
+    
+    /* 1. WAJIB KOTAK SEMPURNA */
+    min-width: 120px;
+    min-height: 120px;
+    
+    /* 2. MARGIN HARUS BESAR agar ujung lancip ketupat tidak saling bertabrakan */
+    margin: 35px; 
+
+    /* 3. EFEK ROTASI KETUPAT */
+    transform: rotate(45deg);
+    border-radius: 12px; /* Membuat 4 sudut lancip ketupat sedikit melengkung halus (elegan) */
+
+    /* 4. PENGATURAN LOGO ICON (Tepat di Pusat Ketupat) */
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center center;
+    
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ─── STRATEGI TEKS AGAR TETAP TEGAK HORIZONTAL ─── */
+button label {
+    /* Karena tombolnya miring 45 derajat, teksnya kita putar balik -45 derajat agar tetap lurus */
+    transform: rotate(-45deg); 
+    
+    /* Mendorong teks agar duduk pas di sudut bawah ketupat */
+    margin-top: 60px;
+    margin-left: 60px;
+    
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ─── EFEK HOVER KETUPAT NYALAKAN PENDARAN ─── */
+button:focus,
+button:hover {
+    background-color: rgba(189, 147, 249, 0.25); 
+    border-color: #ff79c6;                        
+    color: #ff79c6;                               
+    
+    /* Efek visual ketupat sedikit membesar saat didekati kursor */
+    transform: rotate(45deg) scale(1.08);
+}
+
+/* Peta file gambar ikon bawaan sistem */
+#lock { background-image: url("/usr/share/wlogout/icons/lock.png"); }
+#logout { background-image: url("/usr/share/wlogout/icons/logout.png"); }
+#suspend { background-image: url("/usr/share/wlogout/icons/suspend.png"); }
+#hibernate { background-image: url("/usr/share/wlogout/icons/hibernate.png"); }
+#reboot { background-image: url("/usr/share/wlogout/icons/reboot.png"); }
+#shutdown { background-image: url("/usr/share/wlogout/icons/shutdown.png"); }

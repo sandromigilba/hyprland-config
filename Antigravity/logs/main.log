@@ -1,0 +1,51 @@
+[2026-07-09 04:02:27.444] [info]  [IDE Wizard] /home/kanbara/.gemini/antigravity-ide exists — IDE already installed, skipping.
+[2026-07-09 04:02:27.451] [info]  Starting app (v2.2.1) with dynamic port…
+[2026-07-09 04:02:27.453] [info]  
+Spawning: /home/kanbara/Downloads/Antigravity-x64/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.2.1 --override_user_agent_name antigravity --https_server_port 0 --csrf_token 5bfb31a5-c77f-4f62-b4a0-401c79e158e8 --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-07-09 04:02:28.240] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:32827/
+[2026-07-09 04:02:28.241] [info]  
+============================================================
+[2026-07-09 04:02:28.241] [info]    Local:       https://127.0.0.1:32827/
+[2026-07-09 04:02:28.242] [info]    LS Logs:     /home/kanbara/.config/Antigravity/logs/language_server.log
+[2026-07-09 04:02:28.242] [info]    Electron Logs: /home/kanbara/.config/Antigravity/logs/main.log
+[2026-07-09 04:02:28.242] [info]  ============================================================
+
+[2026-07-09 04:02:38.309] [info]  [AutoUpdater] Starting auto update checks
+[2026-07-09 04:02:38.310] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 04:38:19.870] [info]  Shutting down language server…
+[2026-07-09 15:29:59.596] [info]  [IDE Wizard] Already shown, skipping.
+[2026-07-09 15:29:59.604] [info]  Starting app (v2.2.1) with dynamic port…
+[2026-07-09 15:29:59.606] [info]  
+Spawning: /opt/antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.2.1 --override_user_agent_name antigravity --https_server_port 0 --csrf_token c9dd188a-a7de-405d-b54f-aa85665b9956 --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-07-09 15:29:59.982] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:37649/
+[2026-07-09 15:29:59.984] [info]  
+============================================================
+[2026-07-09 15:29:59.985] [info]    Local:       https://127.0.0.1:37649/
+[2026-07-09 15:29:59.985] [info]    LS Logs:     /home/kanbara/.config/Antigravity/logs/language_server.log
+[2026-07-09 15:29:59.986] [info]    Electron Logs: /home/kanbara/.config/Antigravity/logs/main.log
+[2026-07-09 15:29:59.986] [info]  ============================================================
+
+[2026-07-09 15:30:10.104] [info]  [AutoUpdater] Starting auto update checks
+[2026-07-09 15:30:10.105] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 15:31:31.220] [info]  Shutting down language server…
+[2026-07-09 20:40:54.837] [info]  [IDE Wizard] Already shown, skipping.
+[2026-07-09 20:40:54.845] [info]  Starting app (v2.2.1) with dynamic port…
+[2026-07-09 20:40:54.846] [info]  
+Spawning: /opt/antigravity/resources/bin/language_server --standalone --override_ide_name antigravity --subclient_type hub --override_ide_version 2.2.1 --override_user_agent_name antigravity --https_server_port 0 --csrf_token b2979693-83da-4db7-b9cd-4c329c7f4fae --app_data_dir antigravity --api_server_url https://generativelanguage.googleapis.com --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --enable_sidecars
+
+[2026-07-09 20:40:55.206] [info]  [Auto-Restart] Port changed! Reloading all windows with URL: https://127.0.0.1:46709/
+[2026-07-09 20:40:55.209] [info]  
+============================================================
+[2026-07-09 20:40:55.209] [info]    Local:       https://127.0.0.1:46709/
+[2026-07-09 20:40:55.209] [info]    LS Logs:     /home/kanbara/.config/Antigravity/logs/language_server.log
+[2026-07-09 20:40:55.209] [info]    Electron Logs: /home/kanbara/.config/Antigravity/logs/main.log
+[2026-07-09 20:40:55.210] [info]  ============================================================
+
+[2026-07-09 20:41:05.330] [info]  [AutoUpdater] Starting auto update checks
+[2026-07-09 20:41:05.331] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 21:41:05.426] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 22:41:05.526] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 23:41:05.551] [warn]  APPIMAGE env is not defined, current application is not an AppImage
+[2026-07-09 23:56:39.168] [info]  Shutting down language server…

@@ -1,0 +1,78 @@
+2026-07-09 02:28:35.222 [info] Getting Manifest... shopify.ruby-lsp
+2026-07-09 02:28:37.532 [info] Installing extension: shopify.ruby-lsp {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"}}
+2026-07-09 02:28:41.158 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/shopify.ruby-lsp-0.10.4-universal: shopify.ruby-lsp
+2026-07-09 02:28:41.169 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/shopify.ruby-lsp-0.10.4-universal
+2026-07-09 02:28:41.206 [info] Extension installed successfully: shopify.ruby-lsp vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:28:41.207 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at K1.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async K1.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async K1.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)
+2026-07-09 02:28:42.944 [info] Getting Manifest... golang.go
+2026-07-09 02:28:43.493 [info] Installing extension: golang.go {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"}}
+2026-07-09 02:28:45.221 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/golang.go-0.54.0-universal: golang.go
+2026-07-09 02:28:45.236 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/golang.go-0.54.0-universal
+2026-07-09 02:28:45.279 [info] Extension installed successfully: golang.go vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:28:45.279 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at K1.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async K1.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async K1.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)
+2026-07-09 02:28:46.366 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2026-07-09 02:28:46.865 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"}}
+2026-07-09 02:28:47.737 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/llvm-vs-code-extensions.vscode-clangd-0.6.0-universal: llvm-vs-code-extensions.vscode-clangd
+2026-07-09 02:28:47.747 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/llvm-vs-code-extensions.vscode-clangd-0.6.0-universal
+2026-07-09 02:28:47.781 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:28:47.781 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at K1.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async K1.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async K1.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)
+2026-07-09 02:28:48.737 [info] Getting Manifest... ms-python.python
+2026-07-09 02:28:48.832 [info] Installing extension: ms-python.python {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"}}
+2026-07-09 02:28:49.897 [info] Getting Manifest... ms-python.debugpy
+2026-07-09 02:29:03.309 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-07-09 02:29:03.737 [info] Installing extension: ms-python.debugpy {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"},"pinned":false,"installGivenVersion":false}
+2026-07-09 02:29:03.738 [info] Installing extension: ms-python.vscode-python-envs {"context":{"skipPublisherTrust":true,"dependecyOrPackExtensionInstall":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"},"pinned":false,"installGivenVersion":false}
+2026-07-09 02:29:57.605 [warning] Failed downloading vsix. Unable to write file '/home/kanbara/.config/Antigravity IDE/CachedExtensionVSIXs/.fb2b60ab-42b5-4508-9d5d-73f1069ce3bc' (Error: net::ERR_QUIC_PROTOCOL_ERROR). Retry again... ms-python.python
+2026-07-09 02:29:57.606 [warning] Failed downloading vsix. Unable to write file '/home/kanbara/.config/Antigravity IDE/CachedExtensionVSIXs/.ee0eca94-2693-42d4-991b-3c333c813ce8' (Error: net::ERR_QUIC_PROTOCOL_ERROR). Retry again... ms-python.vscode-python-envs
+2026-07-09 02:29:57.607 [warning] Failed downloading vsix. Unable to write file '/home/kanbara/.config/Antigravity IDE/CachedExtensionVSIXs/.f5424e4b-f4a1-437e-85d7-87005411c312' (Error: net::ERR_QUIC_PROTOCOL_ERROR). Retry again... ms-python.debugpy
+2026-07-09 02:30:49.974 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal: ms-python.vscode-python-envs
+2026-07-09 02:30:50.004 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/ms-python.vscode-python-envs-1.20.1-universal
+2026-07-09 02:31:56.431 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+2026-07-09 02:31:56.452 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/ms-python.debugpy-2026.6.0-linux-x64
+2026-07-09 02:32:03.035 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+2026-07-09 02:32:03.141 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/ms-python.python-2026.4.0-universal
+2026-07-09 02:32:03.193 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:32:03.194 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:32:03.194 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:32:03.195 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at K1.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async K1.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async K1.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)
+2026-07-09 02:32:05.539 [info] Getting Manifest... meta.pyrefly
+2026-07-09 02:32:06.403 [info] Installing extension: meta.pyrefly {"context":{"skipPublisherTrust":true},"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json","path":"/home/kanbara/.antigravity-ide/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.0","date":"2026-06-17T22:39:43.962Z"}}
+2026-07-09 02:33:10.049 [info] Extracted extension to file:///home/kanbara/.antigravity-ide/extensions/meta.pyrefly-1.1.1-linux-x64: meta.pyrefly
+2026-07-09 02:33:10.058 [info] Renamed to /home/kanbara/.antigravity-ide/extensions/meta.pyrefly-1.1.1-linux-x64
+2026-07-09 02:33:10.101 [info] Extension installed successfully: meta.pyrefly vscode-userdata:/home/kanbara/.antigravity-ide/extensions/extensions.json
+2026-07-09 02:33:10.102 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'fireEvent'): TypeError: Cannot read properties of undefined (reading 'fireEvent')
+    at fl.value (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:75078)
+    at z._deliver (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2894)
+    at z._deliverQueue (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:2985)
+    at z.fire (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:28:3321)
+    at K1.installExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:12772)
+    at async K1.installGalleryExtensions (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:3360)
+    at async K1.installFromGallery (file:///opt/antigravity-ide/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:87:2507)

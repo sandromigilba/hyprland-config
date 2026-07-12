@@ -1,0 +1,13 @@
+2026-07-11 22:21:45.145 [info] Started local extension host with pid 9713.
+2026-07-11 22:21:47.529 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-11 22:21:50.309 [info] [perf] Render performance baseline is 83ms
+2026-07-11 22:21:51.897 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-07-11 22:21:51.898 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/managed_settings
+2026-07-11 22:21:52.531 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-11 22:21:53.700 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/managed_settings
+2026-07-11 22:21:53.701 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-07-11 22:21:53.703 [error] Error while getting the latest version for the extension enkia.tokyo-night. TypeError: Failed to fetch
+2026-07-11 22:21:53.704 [error] Error while getting the latest version for the extension github.copilot-chat. TypeError: Failed to fetch
+2026-07-11 22:21:54.708 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-11 22:40:31.948 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-07-11 22:40:32.981 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.

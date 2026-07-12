@@ -1,0 +1,39 @@
+2026-07-09 02:26:42.142 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: ca1f70bceb51050d
+2026-07-09 02:26:44.803 [info] [CloudCode] POST v1internal:onboardUser traceId: e8162e3a9b8785f7
+2026-07-09 02:26:46.356 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: a91a73459508cf1a
+2026-07-09 02:26:48.042 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: c5bdebd010bbfbfe
+2026-07-09 02:28:00.221 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: a726a86fa2793aca
+2026-07-09 02:28:02.467 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: b4f661118f3ecd88
+2026-07-09 02:33:02.494 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 9ee839782695b3d7
+2026-07-09 02:33:03.153 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: f95ecaa79ac85abd
+2026-07-09 02:38:03.984 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 65450141d18bc2ec
+2026-07-09 02:38:04.851 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 2ff29ec93dfdd84a
+2026-07-09 02:42:56.945 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 1170d250bcca1228
+2026-07-09 02:42:58.409 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 6dc612078c8755c0
+2026-07-09 02:46:54.979 [error] Failed to fetch NUXes: request to https://daily-cloudcode-pa.googleapis.com/v1internal/cascadeNuxes failed, reason: 
+2026-07-09 02:47:58.054 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 1e1a3254d8faccbe
+2026-07-09 02:47:58.676 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: af97635022127f88
+2026-07-09 02:52:57.910 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: b75bc529841a1a28
+2026-07-09 02:52:58.572 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: a9766a52151e298
+2026-07-09 02:57:55.809 [error] Failed to make POST request: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-07-09 03:03:01.845 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 27215385cbb024f1
+2026-07-09 03:03:02.450 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: d75d263664df08a9
+2026-07-09 03:06:14.326 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: ce4aa2d610f672ba
+2026-07-09 03:07:56.453 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 76a6d6e03d44b1fb
+2026-07-09 03:07:56.804 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 5cce84d1e4e51496
+2026-07-09 03:11:50.673 [error] Failed to fetch NUXes: request to https://daily-cloudcode-pa.googleapis.com/v1internal/cascadeNuxes failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-07-09 03:12:56.803 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 7a3c3fa4b94b2805
+2026-07-09 03:12:57.468 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 752886e6dcfbf069
+2026-07-09 03:17:56.923 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 71c3ab54f343c1df
+2026-07-09 03:17:57.303 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 270a765708e4ae41
+2026-07-09 03:21:48.670 [info] [CloudCode] POST v1internal:recordCodeAssistMetrics traceId: b1adf0c2408f11c5
+2026-07-09 03:22:58.062 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: f5d3cb66fcd7073b
+2026-07-09 03:22:59.052 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 60350a08b5bac1aa
+2026-07-09 03:23:11.626 [error] Failed to make POST request: request to https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo failed, reason: socket hang up
+2026-07-09 03:27:55.709 [error] Failed to make POST request: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-07-09 03:33:01.718 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: d4221e7c6e19971e
+2026-07-09 03:33:02.342 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 89ae54d287f90280
+2026-07-09 03:37:58.010 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: 8357b6914028b107
+2026-07-09 03:37:58.371 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: 9bf2379d849651a
+2026-07-09 03:42:56.817 [info] [CloudCode] POST v1internal:loadCodeAssist traceId: a9b378112d2ad4f6
+2026-07-09 03:42:57.692 [info] [CloudCode] POST v1internal:fetchAvailableModels traceId: f14f2f0518fc4ab3

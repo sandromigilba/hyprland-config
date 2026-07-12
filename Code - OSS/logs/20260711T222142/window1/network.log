@@ -1,0 +1,6 @@
+2026-07-11 22:21:51.897 [error] #4: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-07-11 22:21:51.898 [error] #5: https://api.github.com/copilot_internal/managed_settings - error GET Failed to fetch
+2026-07-11 22:21:53.699 [error] #7: https://api.github.com/copilot_internal/managed_settings - error GET Failed to fetch
+2026-07-11 22:21:53.701 [error] #6: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
+2026-07-11 22:21:53.702 [error] #2: https://open-vsx.org/vscode/gallery/vscode/enkia/tokyo-night/latest - error GET Failed to fetch
+2026-07-11 22:21:53.703 [error] #1: https://open-vsx.org/vscode/gallery/vscode/github/copilot-chat/latest - error GET Failed to fetch

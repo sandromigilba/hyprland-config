@@ -1,0 +1,46 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+.notification-row {
+    outline: none;
+    margin: 8px 10px;
+}
+
+.notification {
+    border-radius: 18px;
+    background: rgba(30, 30, 46, 0.90);
+    border: 2px solid #89b4fa;
+    padding: 12px;
+    transition: 180ms ease;
+}
+
+.notification:hover {
+    background: rgba(49, 50, 68, 0.96);
+    border-color: #b4befe;
+}
+
+.summary {
+    color: #89b4fa;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.body {
+    color: #cdd6f4;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.time {
+    color: #7f849c;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.image {
+    border-radius: 12px;
+    margin-right: 10px;
+}

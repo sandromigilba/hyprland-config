@@ -1,0 +1,47 @@
+2026-07-09 03:49:13.464 [info] [main] Log level: Info
+2026-07-09 03:49:13.464 [info] [main] Validating found git in: "git"
+2026-07-09 03:49:13.464 [info] [main] Using git "2.54.0" from "git"
+2026-07-09 03:49:13.464 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-09 03:49:13.464 [info] > git rev-parse --show-toplevel [21ms]
+2026-07-09 03:49:13.464 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-07-09 03:49:13.464 [info] [Model][openRepository] Opened repository (path): /home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel
+2026-07-09 03:49:13.464 [info] [Model][openRepository] Opened repository (real path): /home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel
+2026-07-09 03:49:13.464 [info] [Model][openRepository] Opened repository (kind): repository
+2026-07-09 03:49:13.464 [info] > git config --get commit.template [2ms]
+2026-07-09 03:49:13.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-07-09 03:49:13.464 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel/.git/refs/remotes/origin/main'
+2026-07-09 03:49:13.464 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2026-07-09 03:49:13.464 [info] > git rev-parse --show-toplevel [32ms]
+2026-07-09 03:49:13.464 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-07-09 03:49:13.464 [info] > git rev-parse --show-toplevel [9ms]
+2026-07-09 03:49:13.464 [info] > git status -z -uall [47ms]
+2026-07-09 03:49:13.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [139ms]
+2026-07-09 03:49:13.464 [info] > git rev-parse --show-toplevel [209ms]
+2026-07-09 03:49:13.464 [info] > git config --get --local branch.main.vscode-merge-base [30ms]
+2026-07-09 03:49:13.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2026-07-09 03:49:13.475 [info] > git rev-parse --show-toplevel [52ms]
+2026-07-09 03:49:13.477 [info] > git config --get commit.template [58ms]
+2026-07-09 03:49:14.039 [info] > git merge-base refs/heads/main refs/remotes/origin/main [565ms]
+2026-07-09 03:49:14.064 [info] > git check-ignore -v -z --stdin [11ms]
+2026-07-09 03:49:14.066 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% a3e0f58c8de8e4cc0dc16090e8d2b03ac35f56d8...refs/remotes/origin/main -- [20ms]
+2026-07-09 03:49:14.067 [info] > git rev-parse --show-toplevel [581ms]
+2026-07-09 03:49:14.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2026-07-09 03:49:14.128 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel/.git/refs/remotes/origin/main'
+2026-07-09 03:49:14.130 [info] > git rev-parse --show-toplevel [24ms]
+2026-07-09 03:49:14.141 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2026-07-09 03:49:14.167 [info] > git rev-parse --show-toplevel [27ms]
+2026-07-09 03:49:14.182 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2026-07-09 03:49:14.188 [info] > git rev-parse --show-toplevel [8ms]
+2026-07-09 03:49:14.199 [info] > git status -z -uall [48ms]
+2026-07-09 03:49:14.209 [info] > git rev-parse --show-toplevel [10ms]
+2026-07-09 03:49:14.219 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-09 03:49:14.227 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-09 03:49:14.271 [info] > git show --textconv :.env [15ms]
+2026-07-09 03:49:14.284 [info] > git ls-files --stage -- .env [15ms]
+2026-07-09 03:49:14.296 [info] > git hash-object -t tree /dev/null [13ms]
+2026-07-09 03:49:14.298 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkanbara%2FDocuments%2Fsandrofiles%2Fcode%2Fregistrasi-mahasiswa-baru-laravel%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-07-09 03:49:14.301 [info] > git hash-object -t tree /dev/null [7ms]
+2026-07-09 03:49:14.301 [warning] [GitFileSystemProvider][stat] File not found - git:/home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel/.env.git?%7B%22path%22%3A%22%2Fhome%2Fkanbara%2FDocuments%2Fsandrofiles%2Fcode%2Fregistrasi-mahasiswa-baru-laravel%2F.env%22%2C%22ref%22%3A%22%22%7D
+2026-07-09 03:49:14.547 [info] > git blame --root --incremental a3e0f58c8de8e4cc0dc16090e8d2b03ac35f56d8 -- .env [5ms]
+2026-07-09 03:49:14.547 [info] fatal: no such path .env in a3e0f58c8de8e4cc0dc16090e8d2b03ac35f56d8
+2026-07-09 03:49:17.502 [info] > git check-ignore -v -z --stdin [7ms]

@@ -1,0 +1,59 @@
+/* Latar belakang layar (Backdrop) saat wlogout aktif */
+window {
+    background-color: rgba(30, 30, 46, 0.4); 
+}
+
+/* Container utama tempat kartu-kartu berkumpul */
+grid {
+    margin: 300px 80px; /* Menyesuaikan margin agar container tetap presisi di tengah */
+    background-color: rgba(30, 30, 46, 0.75); 
+    border: 2px solid rgba(189, 147, 249, 0.2);
+    border-radius: 24px;
+    padding: 25px;
+}
+
+/* ─── DESAIN KARTU DENGAN LOGO BESAR & DI TENGAH ─── */
+button {
+    color: #f8f8f2;
+    background-color: rgba(40, 42, 54, 0.85); 
+    border: 2px solid #bd93f9;               
+    border-radius: 20px;                     
+    margin: 12px;
+    
+    /* Memperbesar ukuran kartu agar proporsional dengan logo baru */
+    min-width: 160px;
+    min-height: 190px;
+
+    /* ─── KUNCI LOGO DI TENGAH & BESAR ─── */
+    background-repeat: no-repeat;
+    background-size: 75px;             /* Perbesar ukuran logo (sebelumnya hanya 45px) */
+    background-position: center 35px;  /* Posisi logo: Tepat di tengah atas secara seimbang */
+
+    /* ─── POSISI TEKS DI BAWAH LOGO ─── */
+    padding-top: 130px;                /* Mendorong teks ke bawah agar tidak tertabrak logo yang membesar */
+    font-size: 15px;
+    font-weight: bold;
+    
+    /* Animasi transisi smooth */
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ─── EFEK HOVER (KARTU TERANGKAT & MENYALA) ─── */
+button:focus,
+button:hover {
+    background-color: rgba(189, 147, 249, 0.25); 
+    border-color: #ff79c6;                        
+    color: #ff79c6;                               
+    
+    /* Efek kartu seperti terangkat saat didekati kursor */
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+/* Peta file gambar ikon bawaan sistem */
+#lock { background-image: url("/usr/share/wlogout/icons/lock.png"); }
+#logout { background-image: url("/usr/share/wlogout/icons/logout.png"); }
+#suspend { background-image: url("/usr/share/wlogout/icons/suspend.png"); }
+#hibernate { background-image: url("/usr/share/wlogout/icons/hibernate.png"); }
+#reboot { background-image: url("/usr/share/wlogout/icons/reboot.png"); }
+#shutdown { background-image: url("/usr/share/wlogout/icons/shutdown.png"); }

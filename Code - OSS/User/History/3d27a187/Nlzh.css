@@ -1,0 +1,214 @@
+/* src/App.css */
+
+/* Definisikan Palet Warna Tokyo Night */
+:root {
+  --tokyo-bg-dark: #16161e;       /* Untuk sidebar/panel sekunder */
+  --tokyo-bg-main: #1a1b26;       /* Background utama aplikasi */
+  --tokyo-border: #24283b;        /* Warna border lembut */
+  --tokyo-fg: #a9b1d6;            /* Teks utama */
+  --tokyo-comment: #565f89;       /* Komentar (redup) */
+  --tokyo-keyword: #bb9af7;       /* Ungu (keyword) */
+  --tokyo-function: #7aa2f7;      /* Biru (fungsi) */
+  --tokyo-string: #9ece6a;        /* Hijau (string) */
+  --tokyo-number: #ff9e64;        /* Oranye (angka) */
+  --tokyo-tag: #f7768e;           /* Merah muda (operator/tag) */
+  --tokyo-active-bg: #24283b;     /* Background item aktif */
+  --tokyo-btn-bg: #32354a;        /* Background tombol navigasi */
+}
+
+/* Reset Dasar */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1b26; /* Warna dasar Tokyo Night */
+  color: #a9b1d6;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Segoe UI Mono', monospace;
+  overflow-x: hidden; /* Mencegah scrollbar horizontal yang mengganggu */
+}
+
+/* Utilitas: Semua font monospace */
+.monospace-text {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
+
+/* Utilitas: Kotak dengan radius 20px */
+.rounded-box {
+  border-radius: 20px; /* Radius 20px sesuai permintaan */
+  background-color: #202330; /* Sedikit lebih terang dari bg utama untuk kontras kotak */
+  border: 1px solid var(--tokyo-border);
+  box-sizing: border-box;
+}
+
+/* Container Utama Platform */
+.tokyonight-platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #12131a; /* Warna background ruangan gelap di belakang monitor */
+}
+
+/* Main Viewport (Menirukan area layar di gambar) */
+.main-viewport {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px; /* Diperbesar agar lebih luas di monitor lebar */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 1. Header Box */
+.main-header-box {
+  padding: 10px 30px;
+}
+
+.main-header-box h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* Layout Split: Sidebar & Konten */
+.layout-split {
+  display: flex;
+  gap: 15px;
+  flex: 1; /* Mengisi sisa ruang vertikal yang tersedia */
+  min-height: 0; /* Mengatasi bug flexbox pada scroll content */
+}
+
+/* 2. Sidebar Materi Box */
+.materi-sidebar-box {
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+  background-color: #16161e;
+  overflow-y: auto; /* Jika materi banyak, box ini bisa di-scroll internal */
+}
+
+.materi-sidebar-box h3 {
+  margin-top: 0;
+  color: var(--tokyo-fg);
+  font-size: 1rem;
+}
+
+.materi-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.materi-list li {
+  margin-bottom: 10px;
+}
+
+.materi-item-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px 20px;
+  background: transparent;
+  color: #6a6f8c; /* Teks item non-aktif */
+  border: 1px solid transparent; /* default no border */
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s, color 0.2s;
+  font-size: 0.9rem;
+}
+
+.materi-item-btn:hover {
+  background-color: var(--tokyo-active-bg);
+}
+
+.materi-item-btn.active {
+  background-color: var(--tokyo-bg-dark); /* Sedikit gelap */
+  color: var(--tokyo-fg); /* Putih abu-abu aktif */
+  border: 1px solid var(--tokyo-keyword); /* Border ungu aktif */
+}
+
+/* Konten Utama Area */
+.content-area-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+}
+
+/* 3. Kotak Deskripsi Materi */
+.content-description-box {
+  padding: 20px 30px;
+}
+
+.content-description-box h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.content-description-box .penjelasan {
+  color: #8388ab; /* Teks deskripsi lebih redup */
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 4. Kotak Contoh Kode */
+.content-code-box {
+  padding: 20px 30px;
+}
+
+.content-code-box h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--tokyo-fg);
+}
+
+/* Inner Window Kode (meniru code editor di gambar) */
+.inner-code-window {
+  background-color: #1a1b26; /* Background dalam editor lebih gelap */
+  padding: 20px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  box-shadow: inset 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Syntax Highlighting Manual (Placeholder dari App.jsx) */
+.inner-code-window pre {
+  margin: 0;
+}
+
+.inner-code-window .tokyo-keyword { color: var(--tokyo-keyword); font-weight: bold; }
+.inner-code-window .tokyo-function { color: var(--tokyo-function); }
+.inner-code-window .tokyo-tag { color: var(--tokyo-tag); }
+
+/* 5. Kotak Navigasi */
+.content-navigation-box {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Meniru tombol "Sebelumnya" dan "Selanjutnya" di gambar */
+.nav-btn {
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: var(--tokyo-btn-bg); /* Sesuai warna tombol gambar */
+  color: #a7accc; /* Sesuai warna teks tombol gambar */
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: filter 0.2s;
+}
+
+.nav-btn:hover:not(:disabled) {
+  filter: brightness(1.2);
+}
+
+.nav-btn:disabled {
+  background-color: #24283b;
+  color: #565f89;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

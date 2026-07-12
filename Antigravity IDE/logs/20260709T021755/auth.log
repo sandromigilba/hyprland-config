@@ -1,0 +1,14 @@
+2026-07-09 02:17:55.860 [info] [Auth] Auth state changed to: uninitialized
+2026-07-09 02:17:55.922 [info] [Auth] Auth state changed to: signedOut
+2026-07-09 02:17:55.922 [info] [Auth] AntigravityAuthMainService initialized
+2026-07-09 02:22:51.166 [info] [Auth] Localhost server listening on port 39891
+2026-07-09 02:22:51.175 [info] [Auth] Login URL:  https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcclog%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fexperimentsandconfigs&state=1d92eb1d-c591-430d-9447-939d4e83c036&prompt=consent&response_type=code&client_id=1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A39891%2Foauth-callback
+2026-07-09 02:26:39.345 [info] [Auth] Auth state changed to: validatingLogin
+2026-07-09 02:26:48.252 [info] [Auth] Auth state changed to: success
+2026-07-09 02:26:48.253 [info] [Auth] Auth state changed to: signedIn
+2026-07-09 02:26:48.257 [info] [Auth] Localhost server stopped
+2026-07-09 02:26:48.321 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-07-09 02:57:55.809 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com
+2026-07-09 03:21:48.479 [info] OAuth token changed, executing antigravity.handleAuthRefresh
+2026-07-09 03:23:11.626 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo failed, reason: socket hang up
+2026-07-09 03:27:55.709 [error] [Auth] Error refreshing user status: request to https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: getaddrinfo EAI_AGAIN daily-cloudcode-pa.googleapis.com

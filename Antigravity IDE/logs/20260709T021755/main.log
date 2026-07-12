@@ -1,0 +1,20 @@
+2026-07-09 02:17:55.837 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-07-09 02:17:55.838 [info] update#setState idle
+2026-07-09 02:17:55.838 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:46493
+2026-07-09 02:18:25.799 [info] update#setState checking for updates
+2026-07-09 02:18:26.282 [info] update#setState idle
+2026-07-09 02:35:16.292 [warning] [perf] profiling STARTED a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:35:21.379 [warning] [perf] profiling DONE a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:35:37.204 [warning] [perf] profiling STARTED a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:35:42.264 [warning] [perf] profiling DONE a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:35:57.903 [warning] [perf] profiling STARTED a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:36:02.965 [warning] [perf] profiling DONE a34d3f5f-3c54-408e-af73-e709e4b2f54a
+2026-07-09 02:51:17.077 [info] Extension host with pid 6659 exited with code: 0, signal: unknown.
+2026-07-09 02:51:17.111 [info] [SidebarWorkspacesLifecycle] Running one-time migration from agent manager init state
+2026-07-09 02:51:17.111 [info] [SidebarWorkspacesLifecycle] No agent manager init state found, skipping migration
+2026-07-09 02:51:17.112 [info] [SidebarWorkspacesLifecycle] Running scratch workspace cleanup migration
+2026-07-09 02:51:17.112 [info] [SidebarWorkspacesLifecycle] No empty scratch workspaces to clean up
+2026-07-09 02:51:28.549 [info] Extension host with pid 14170 exited with code: 0, signal: unknown.
+2026-07-09 03:18:25.805 [info] update#setState checking for updates
+2026-07-09 03:18:26.112 [info] update#setState idle
+2026-07-09 03:46:03.540 [info] Extension host with pid 14235 exited with code: 0, signal: unknown.

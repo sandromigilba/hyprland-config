@@ -1,0 +1,54 @@
+window {
+    margin: 0px;
+    border: 3px solid #7cffff;
+    background: #303e62; 
+    font-family: "JetBrains Mono", "Noto Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 36px;
+}
+
+#outer-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+    padding: 0 55px;
+    /* border-radius: 36px; */
+}
+
+#input {
+    margin: 5px 10px 15px;
+    padding: 8px 20px;
+    border: 2px solid #7cffff;
+    background: rgba(40, 40, 40, 0.813); 
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.379); /*glass*/
+    border-radius: 18px;
+    color:  #bd93f9;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#inner-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#entry {
+    padding: 8px;
+    border-radius: 18px;
+    color: #f8f8f2;
+    /* color: #000000; */
+    border-radius: 18px;
+}
+
+/* Efek saat aplikasi dipilih/hover */
+#entry:selected {
+    background: #151515; 
+    border: 2px solid #7cffff;
+}
+
+#text:selected {
+    /* color: #ff79c6; */
+    color: #f8f8f2;
+    font-weight: bold;
+}

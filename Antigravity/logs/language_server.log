@@ -1,0 +1,461 @@
+I0709 20:40:55.191896  4134 server.go:1346] Starting language server process with pid 4134
+I0709 20:40:55.194241  4134 server.go:356] Setting GOMAXPROCS to 4
+I0709 20:40:55.197524  4134 server.go:499] Language server will attempt to listen on host localhost
+I0709 20:40:55.204965  4134 server.go:514] Language server listening on random port at 46709 for HTTPS (gRPC)
+I0709 20:40:55.205383  4134 server.go:522] Language server listening on random port at 42995 for HTTP
+I0709 20:40:56.074704  4134 auth_provider.go:627] [AuthProvider] SetProjectID called with projectID: ""
+I0709 20:40:56.074778  4134 auth_provider.go:635] [AuthProvider] SetLocation called with location: ""
+W0709 20:40:56.127685  4134 launchmanager.go:69] Entering local chrome mode! This is WRONG unless you are running tests or in eval mode on Linux.
+I0709 20:40:56.133538  4134 manager.go:93] Creating trajectory store manager with proto store and SQLite store
+I0709 20:40:59.826374  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1b1439a9d7e7e6d1
+I0709 20:41:00.915510  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x39621a1ec604f528
+I0709 20:41:01.613712  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4d94c42ada8310d2
+I0709 20:41:02.107357  4134 server.go:1164] Serving UI bundle from embedded assets
+I0709 20:41:02.113456  4134 server.go:1164] Serving UI bundle from embedded assets
+I0709 20:41:02.113492  4134 server.go:2407] Auth succeeded, refreshing features and managers
+I0709 20:41:02.437882  4134 server.go:2413] State refresh took 324ms
+I0709 20:41:02.437951  4134 server.go:2423] [RemoteControl] Subscription callback triggered.
+I0709 20:41:02.437964  4134 server.go:2425] [RemoteControl] RemoteControlEnabled value: false
+I0709 20:41:02.437988  4134 server.go:2526] [RemoteControl] Resolved proxyServerURL: ""
+I0709 20:41:02.438114  4134 server.go:2452] Projects enabled internally: true
+I0709 20:41:02.438133  4134 server.go:2456] Retroactive projects migration enabled: true
+I0709 20:41:02.454509  4134 projects_migration.go:535] Projects migration already started or completed, skipping
+I0709 20:41:02.455226  4134 server.go:2053] initialized server successfully in 7.261196602s
+I0709 20:41:09.020404  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.020529  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.021437  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.021546  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.174225  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.175392  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.175677  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.176618  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.396322  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.397183  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.397225  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:09.397785  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:27.258726  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:27.258894  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:27.259565  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:27.259733  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:29.173704  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:29.173852  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:29.174736  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:41:29.175673  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:23.609875  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:23.610252  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:23.610422  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:23.610853  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:28.631958  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:28.632236  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:28.632447  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:28.632742  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:29.923249  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:29.923249  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:29.924036  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:29.924079  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:37.320899  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:37.321423  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:37.321747  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:43:37.322023  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:46:57.052625  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x4450f3759570e047
+I0709 20:46:57.813483  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x61e4133f47a2f5d5
+I0709 20:47:55.680319  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:55.680703  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:55.681424  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:55.683142  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:57.056651  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:57.056949  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:57.057386  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:47:57.057566  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:52:56.851858  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfa0d8ad6e171ea08
+I0709 20:52:57.254166  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc68544c86c3aef4c
+I0709 20:55:21.975350  4134 server.go:2423] [RemoteControl] Subscription callback triggered.
+I0709 20:55:21.975383  4134 server.go:2425] [RemoteControl] RemoteControlEnabled value: false
+I0709 20:55:21.975394  4134 server.go:2526] [RemoteControl] Resolved proxyServerURL: ""
+I0709 20:55:26.548702  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.550036  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.551571  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.552024  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.552805  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.553246  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.561942  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.562749  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.566501  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.566760  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.567173  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.567636  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.568914  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.569663  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.856931  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.857392  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.867906  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.868421  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.952269  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:26.952849  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:29.324043  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:29.324594  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:30.518253  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa3d9096c01226be2
+I0709 20:55:34.617702  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:34.618145  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:34.618442  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:34.619099  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:34.619633  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:34.620345  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:35.217918  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:35.218396  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:35.329578  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:35.330096  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:53.789137  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:53.789289  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:53.789787  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:55:53.789975  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:57:28.356077  4134 server.go:2423] [RemoteControl] Subscription callback triggered.
+I0709 20:57:28.356121  4134 server.go:2425] [RemoteControl] RemoteControlEnabled value: false
+I0709 20:57:28.356140  4134 server.go:2526] [RemoteControl] Resolved proxyServerURL: ""
+I0709 20:58:17.024726  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfac137068b2c0923
+I0709 20:59:58.618558  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:59:58.619745  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:59:58.621130  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 20:59:58.621831  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:00:17.648097  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:00:17.648359  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:00:17.648908  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:00:17.649053  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:01:00.037289  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa43768f0d014234e
+I0709 21:03:57.195749  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe3e89b9baedf1590
+I0709 21:04:25.599327  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:25.599762  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:25.599969  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:25.600556  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:30.157357  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:30.157358  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:30.157986  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:30.158080  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:31.551720  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:31.552135  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:31.552402  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:31.552925  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:33.484666  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:33.485206  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:33.485321  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:04:33.485835  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:01.626538  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:01.627350  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:01.627497  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:01.628334  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:02.261827  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7566d3e5392ef2e4
+I0709 21:09:08.937764  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:08.938171  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:08.939229  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:08.939384  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:09:10.022485  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2764e57142968c88
+I0709 21:14:56.611912  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xfcd572165b6b419d
+I0709 21:14:57.261606  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x426e18233083842b
+I0709 21:18:48.617912  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:18:48.618249  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:18:48.618884  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:18:48.619068  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:19:08.459583  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:19:08.460347  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:19:08.460466  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:19:08.461401  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:20:56.927384  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa46ccc9f94ddd392
+I0709 21:20:57.528797  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5a68f355489c3612
+I0709 21:26:57.110394  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd9087cbe80fdeb16
+I0709 21:26:58.187575  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x193f0d6b38551b53
+I0709 21:33:07.431875  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xc808b39f900ecd6a
+I0709 21:33:08.469643  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xa6a2e3c608a2bb91
+W0709 21:37:44.550919  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:37:44.551067  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:44.553997  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:44.560296  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:37:44.560377  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:44.560700  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:44.595639  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:37:44.595797  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:44.596256  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+I0709 21:37:44.616109  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:44.616270  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:44.616969  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:44.617180  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+E0709 21:37:48.956275  4134 client.go:59] Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: Temporary failure in name resolution
+W0709 21:37:49.230878  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:37:49.230960  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:49.231316  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+I0709 21:37:49.286203  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:49.286540  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:49.286763  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:49.287115  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:37:50.925856  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:37:50.925970  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:37:50.926616  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+I0709 21:37:50.975107  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:50.975572  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:50.975780  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:50.976141  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:53.645857  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:53.646484  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:53.646525  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:37:53.647077  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:16.410616  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:16.410801  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:16.411339  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:16.411592  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:17.469478  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ab52037e1bd7647
+I0709 21:38:18.050293  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x73e240e6f196698a
+I0709 21:38:18.429691  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:18.430768  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:18.433555  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:38:18.434417  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:27.608477  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:27.609100  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:27.609152  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:27.609826  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:31.419625  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:31.419626  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:31.420306  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:41:31.420474  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:08.573398  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.573465  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.573395  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.573585  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.573653  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.573737  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.573665  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.573995  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574162  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574182  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574309  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574314  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574357  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.574430  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.587414  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.587472  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.587577  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.587419  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.587705  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.587424  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.587881  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.587582  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588011  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588028  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588062  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588137  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588247  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588280  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588715  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588765  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588788  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.588823  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.588861  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.588993  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589115  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589131  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589258  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.588775  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.589320  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589360  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589422  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589435  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589556  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589575  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589592  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.589607  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.628649  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.628746  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.628810  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.628891  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.628649  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.629048  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.629073  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.629004  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629419  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629527  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629532  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629604  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629613  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.629652  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:08.655234  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:08.655417  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:08.656061  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.656138  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.656237  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:08.656429  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:08.656339  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:08.656495  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:08.656799  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657055  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657091  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657116  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657139  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657156  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657171  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657188  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657201  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657215  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657215  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657230  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:08.657280  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+ERROR: logging before google.Init: E0709 21:44:11.585849     106 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: Temporary failure in name resolution]
+W0709 21:44:15.134395  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.134455  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.134527  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.134558  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.134599  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.134652  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.134471  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.134759  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.134943  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.134975  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.135091  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.135104  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.135100  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.135158  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:15.193213  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:15.193280  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.193352  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193375  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.193438  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:15.193213  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:15.193722  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193754  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193775  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193881  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193894  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193902  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193911  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193918  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193927  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.193936  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.194420  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:15.194482  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:15.194506  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.194701  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:15.194811  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.195132  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.195169  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:15.194703  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:15.195266  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:15.195316  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+ERROR: logging before google.Init: E0709 21:44:16.606951     106 g3syslog.go:23] [Post "https://play.googleapis.com/log": dial tcp: lookup play.googleapis.com: Temporary failure in name resolution]
+W0709 21:44:17.104911  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105006  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.105090  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.105160  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.104918  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.105240  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105093  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.105397  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105537  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105566  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105595  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105692  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105708  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.105718  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106185  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.106267  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106298  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106355  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.106391  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.106408  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106310  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.106509  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106785  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106808  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106825  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106850  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.106885  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.107001  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.107867  4134 log_context.go:117] Cache(peopleInfo): Singleflight refresh failed: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.107875  4134 log_context.go:117] Cache(userInfo): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.107953  4134 log.go:398] Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.107869  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.108036  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108113  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.107962  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.108238  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108427  4134 log_context.go:117] Failed to refresh cache in background: Get "https://www.googleapis.com/oauth2/v2/userinfo": dial tcp: lookup www.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108456  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108478  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108583  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchUserInfo": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108627  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.108653  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.168366  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.168476  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.168855  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.169047  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.169096  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:17.169286  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:17.169383  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:17.169838  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:17.169964  4134 log_context.go:117] Cache(loadCodeAssistResponse): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.170056  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:17.170141  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:17.170441  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.170610  4134 log_context.go:117] Cache(availableModels): Singleflight refresh failed: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+E0709 21:44:17.170654  4134 log.go:398] Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:17.170759  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+W0709 21:44:17.170950  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.170972  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171006  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171021  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171019  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171037  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171095  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171129  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171149  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171174  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+W0709 21:44:17.171196  4134 log_context.go:117] Failed to refresh cache in background: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels": dial tcp: lookup daily-cloudcode-pa.googleapis.com: Temporary failure in name resolution
+I0709 21:44:19.503612  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xd5ba810840d4d184
+I0709 21:44:19.541724  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:19.541835  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:19.542814  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:19.542899  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:20.054658  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x1821259e9bb6e493
+I0709 21:44:21.487654  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:21.488064  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:21.488470  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:44:21.488712  4134 encoder_embed.go:126] [CDP Discovery] Successfully discovered Electron WS URL: ws://127.0.0.1:40933/devtools/browser/da821743-4952-48c6-9b7c-5ca8bcd77c54
+I0709 21:49:57.076455  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1b2e590fca4ca47a
+I0709 21:49:57.650967  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x2b9890d6017b4062
+I0709 21:55:56.827430  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x6efd940a11713019
+I0709 21:55:57.616585  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x882fb203fdb386d3
+I0709 22:01:57.010588  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x15eeb7feabb273d2
+I0709 22:01:57.480433  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x9e565f57c9488909
+I0709 22:07:56.927114  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x3ad2e9fe2b1c7b2d
+I0709 22:07:57.318115  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc321ce5edee8654f
+I0709 22:13:56.896455  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xde0900d092265447
+I0709 22:13:57.504045  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x630637fb4adc401e
+E0709 22:26:38.669624  4134 log.go:398] Failed to poll ListExperiments: Post "https://daily-cloudcode-pa.googleapis.com/v1internal:listExperiments": read tcp [2001:448a:2020:c2c3:bd2a:e871:7fd9:ecde]:52584->[2001:4860:4802:36::223]:443: read: connection reset by peer
+I0709 22:26:41.073531  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7a6b52a1e1796d8f
+I0709 22:26:41.113764  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x19ecb256e5e96abe
+I0709 22:31:56.934910  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x21148b8b3268ea2e
+I0709 22:31:57.384428  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xcf3c13b3a6ba983f
+I0709 22:37:56.971880  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xeb565169940e1724
+I0709 22:37:57.433819  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4e1e95ce00199a3c
+I0709 22:43:57.102164  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x45e00bf7fe553491
+I0709 22:43:57.588827  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xad54ae7c1762023e
+I0709 22:50:02.063697  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x47c510e3a9977bc7
+I0709 22:50:08.185460  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xbc477271e501444a
+I0709 22:55:56.898325  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x552b87b213ec0714
+I0709 22:55:57.532222  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xf873940929384696
+I0709 23:01:57.070362  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x79931d63291a71bd
+I0709 23:01:57.844416  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x825260cb24730ec1
+I0709 23:07:57.222839  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xac6962b44e7c180f
+I0709 23:07:57.653951  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x5ea15e8dbedb862
+I0709 23:13:00.489249  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9496aa2d1d1dfb94
+I0709 23:13:02.045162  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4e42de916dda7d40
+I0709 23:18:56.933373  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xe2128f61c227111c
+I0709 23:18:57.338594  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x4b192b5661a1edd9
+I0709 23:25:09.979957  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x7799d2c2204fdee0
+I0709 23:25:11.858214  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x76cfd414ccaaf2d2
+I0709 23:30:57.173665  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x91a260c9d4cb9601
+I0709 23:30:57.626654  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x8568fc669f296706
+I0709 23:36:04.535019  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0xa5c00994c683203e
+I0709 23:36:05.354461  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x32118ac96d4641eb
+I0709 23:41:56.976061  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x1069c49f6bd0ae10
+I0709 23:41:57.742809  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x62db7b40f3cdd990
+I0709 23:47:56.846767  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x9885e71e5f26305f
+I0709 23:47:57.623696  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0xc51e6a707813034e
+I0709 23:53:57.055803  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x31ccad3b3f0b27f6
+I0709 23:53:57.403962  4134 http_helpers.go:198] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:loadCodeAssist Trace: 0x58ff102b7783c58

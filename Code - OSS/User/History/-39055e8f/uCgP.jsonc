@@ -1,0 +1,174 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 42,
+    // "margin-top": 10,
+    "margin-left": 14,
+    "margin-right": 14,
+    "spacing": 10,
+
+    // =========================
+    // MODULES
+    // =========================
+
+    "modules-left": [
+        "group/left"
+    ],
+
+    "modules-center": [
+        "group/center"
+    ],
+
+    "modules-right": [
+        "group/right"
+    ],
+
+    // =========================
+    // GROUP CAPSULES
+    // =========================
+
+    "group/left": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 300
+        },
+        "modules": [
+            "hyprland/workspaces"
+            // "custom/media"
+        ]
+    },
+
+    "group/center": {
+        "orientation": "horizontal",
+        "modules": [
+            "hyprland/window"
+        ]
+    },
+
+    "group/right": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 1000
+        },
+        "modules": [
+            "network",
+            "pulseaudio",
+            "backlight",
+            "battery",
+            "clock",
+            "custom/power"
+        ]
+    },
+
+    // =========================
+    // WORKSPACES
+    // =========================
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "persistent-workspaces": {
+            "*": [1]
+        },
+        "format": "❄️"
+    },
+
+    // =========================
+    // WINDOW TITLE
+    // =========================
+    "hyprland/window": {
+        "max-length": 35,
+        "format": "  {}",
+        "separate-outputs": true,
+        "rewrite": {
+            // 1. Jika teks kosong atau hanya spasi, ganti jadi Welcome
+            "^\\s*$": "Welcome",
+            
+            // 2. Jika mendeteksi kata default bawaan Hyprland saat kosong
+            "Hyprland": "Welcome",
+            
+            // 3. JIKA MASIH MUNCUL ANGKA WORKSPACE (misal muncul kata "1" atau "2" saat kosong)
+            // Regex di bawah ini menangkap jika teks yang keluar HANYA berupa angka 1 sampai 10
+            "^(10|[1-9])$": "Welcome"
+        }
+    },
+    // =========================
+    // CLOCK
+    // =========================
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    // =========================
+    // NETWORK
+    // =========================
+
+    "network": {
+        "format-wifi": "󰤨  {signalStrength}%",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭"
+    },
+
+    // =========================
+    // AUDIO
+    // =========================
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "󰖁",
+        "format-icons": {
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // =========================
+    // BRIGHTNESS
+    // =========================
+
+    "backlight": {
+        "format": "{percent}% 󰃟"
+    },
+
+    // =========================
+    // BATTERY
+    // =========================
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 󰂄",
+        "format-icons": [
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
+    },
+
+    // =========================
+    // POWER
+    // =========================
+
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "wlogout"
+    }
+}

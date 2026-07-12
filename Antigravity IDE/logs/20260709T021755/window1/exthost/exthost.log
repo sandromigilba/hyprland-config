@@ -1,0 +1,68 @@
+2026-07-09 02:18:00.186 [info] Extension host with pid 6659 started
+2026-07-09 02:18:00.220 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces', root cause: google.antigravity
+2026-07-09 02:18:00.267 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces', root cause: google.antigravity
+2026-07-09 02:18:00.396 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-07-09 02:18:00.532 [info] ExtensionService#_doActivateExtension google.antigravity, startup: false, activationEvent: 'onCommand:antigravity.importVSCodeRecentWorkspaces'
+2026-07-09 02:18:03.740 [info] Eager extensions activated
+2026-07-09 02:18:03.755 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:18:03.781 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:18:03.790 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:26:58.234 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-09 02:26:58.262 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-09 02:26:58.468 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-09 02:26:58.628 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-09 02:51:16.979 [info] Extension host terminating: renderer closed the MessagePort
+2026-07-09 02:51:17.075 [info] Extension host with pid 6659 exiting with code 0
+2026-07-09 02:51:23.571 [info] Extension host with pid 14170 started
+2026-07-09 02:51:23.571 [info] Skipping acquiring lock for /home/kanbara/.config/Antigravity IDE/User/workspaceStorage/fc839bdd82468c8803b2f783115803c0.
+2026-07-09 02:51:23.617 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-07-09 02:51:23.635 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-07-09 02:51:23.756 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-09 02:51:24.016 [info] Eager extensions activated
+2026-07-09 02:51:24.024 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:24.050 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:24.058 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:28.298 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-07-09 02:51:28.530 [info] Extension host terminating: renderer closed the MessagePort
+2026-07-09 02:51:28.548 [info] Extension host with pid 14170 exiting with code 0
+2026-07-09 02:51:33.765 [info] Extension host with pid 14235 started
+2026-07-09 02:51:33.765 [info] Skipping acquiring lock for /home/kanbara/.config/Antigravity IDE/User/workspaceStorage/fc839bdd82468c8803b2f783115803c0.
+2026-07-09 02:51:33.815 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-07-09 02:51:33.835 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-07-09 02:51:33.957 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: google.antigravity
+2026-07-09 02:51:34.090 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-09 02:51:34.263 [info] ExtensionService#_doActivateExtension google.antigravity, startup: true, activationEvent: '*'
+2026-07-09 02:51:34.379 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-09 02:51:35.676 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-09 02:51:36.014 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-07-09 02:51:39.202 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-09 02:51:39.225 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-07-09 02:51:39.263 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-07-09 02:51:43.819 [info] ExtensionService#_doActivateExtension google.antigravity-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:43.839 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:43.844 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-09 02:51:54.502 [info] Eager extensions activated
+2026-07-09 03:11:42.178 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2026-07-09 03:11:43.386 [error] Error: Model is disposed!
+    at vA._assertNotDisposed (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3053:519)
+    at vA.getVersionId (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3055:3233)
+    at lnn.fetch (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3256:17045)
+    at xN._computeFn (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:3256:40662)
+    at xN.get (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2806:11792)
+    at xN.reportChanges (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2806:576)
+    at lVs.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2806:21909)
+    at xN.endUpdate (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2806:13904)
+    at M5e.finish (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2805:109741)
+    at T8l (vscode-file://vscode-app/opt/antigravity-ide/resources/app/out/vs/workbench/workbench.desktop.main.js:2805:109124)
+2026-07-09 03:12:31.511 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-07-09 03:21:49.243 [error] ConnectError: [unknown] run state not found
+	at d (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1738034)
+	at u (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1738430)
+	at next (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1424426)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1327068
+	at async file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1326927
+	at async Object.unary (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1423397)
+	at async Object.acknowledgeCodeActionStep (file:///opt/antigravity-ide/resources/app/extensions/antigravity/dist/extension.js:2:1766536)
+2026-07-09 03:46:03.469 [info] Extension host terminating: renderer closed the MessagePort
+2026-07-09 03:46:03.539 [info] Extension host with pid 14235 exiting with code 0

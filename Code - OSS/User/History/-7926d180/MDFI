@@ -1,0 +1,34 @@
+[global]
+width = 360
+height = 120
+offset = 20x50
+origin = top-right
+
+gap_size = 10
+
+corner_radius = 16
+
+padding = 16
+horizontal_padding = 16
+text_icon_padding = 12
+
+font = JetBrainsMono Nerd Font 11
+
+frame_width = 2
+frame_color = "#89b4fa"
+
+separator_height = 2
+separator_color = frame
+
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+icon_position = left
+min_icon_size = 48
+max_icon_size = 64
+
+transparency = 0
+
+follow = mouse
+
+idle_threshold = 120

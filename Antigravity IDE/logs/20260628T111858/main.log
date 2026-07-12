@@ -1,0 +1,15 @@
+2026-06-28 11:18:58.973 [info] [BrowserOnboardingClientMainService] Starting browser onboarding server
+2026-06-28 11:18:59.039 [info] update#setState idle
+2026-06-28 11:18:59.049 [info] [BrowserOnboardingClientServer] Browser onboarding server started on http://localhost:35235
+2026-06-28 11:18:59.133 [info] [OverrideStoreLifecycle] Migrating secure mode from agent preferences to override store
+2026-06-28 11:18:59.135 [info] [OAuthTokenLifecycle] Starting one-time OAuth token migration from legacy state sync
+2026-06-28 11:18:59.135 [info] [OAuthTokenLifecycle] No agent manager init state found, skipping migration
+2026-06-28 11:18:59.135 [info] [BrowserPreferencesLifecycle] Running one-time migration from browserAllowlist.txt
+2026-06-28 11:18:59.297 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kanbara/.antigravity-ide/extensions
+2026-06-28 11:18:59.313 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kanbara/.antigravity-ide/extensions
+2026-06-28 11:19:06.226 [info] [ArtifactReviewLifecycle] Running one-time migration from agent manager init state
+2026-06-28 11:19:06.227 [info] [ArtifactReviewLifecycle] No agent manager init state found, skipping migration
+2026-06-28 11:19:29.040 [info] update#setState checking for updates
+2026-06-28 11:19:29.410 [info] update#setState idle
+2026-06-28 11:25:12.824 [warning] No ptyHost heartbeat after 6 seconds
+2026-06-28 11:25:27.662 [info] Extension host with pid 49767 exited with code: 0, signal: unknown.

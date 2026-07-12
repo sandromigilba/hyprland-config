@@ -1,0 +1,10 @@
+2026-07-11 00:40:40.020 [info] Started local extension host with pid 4802.
+2026-07-11 00:40:42.215 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-11 00:40:43.419 [info] [perf] Render performance baseline is 47ms
+2026-07-11 00:40:44.286 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-07-11 00:40:44.287 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/managed_settings
+2026-07-11 00:40:44.330 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/managed_settings
+2026-07-11 00:40:44.337 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-07-11 00:40:44.338 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/managed_settings
+2026-07-11 00:40:44.352 [error] [DefaultAccount] request: error TypeError: Failed to fetch https://api.github.com/copilot_internal/v2/token
+2026-07-11 00:40:47.216 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
