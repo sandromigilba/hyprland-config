@@ -1,6 +1,0 @@
-2026-07-11 00:46:49.433 [info] StorageMainService: creating application shared storage
-2026-07-11 00:46:49.562 [info] [shared storage] Creating shared storage database at '/home/kanbara/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-07-11 00:46:49.563 [info] [shared storage] Initializing fallback application storage (path: /home/kanbara/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-07-11 00:46:49.588 [info] [shared storage] Fallback application storage initialized with 73 items
-2026-07-11 00:46:49.594 [info] update#setState disabled
-2026-07-11 00:46:49.595 [info] update#ctor - updates are disabled as there is no update URL

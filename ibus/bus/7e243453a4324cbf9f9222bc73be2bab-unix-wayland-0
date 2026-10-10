@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/kanbara/.cache/ibus/dbus-Ea2krJDx,guid=aa1539b0a66f2bbb2db585116a3d7583
-IBUS_DAEMON_PID=2813
+IBUS_ADDRESS=unix:path=/home/kanbara/.cache/ibus/dbus-C6ktyTNY,guid=cded248505f35c87fdce486a6aa58a28
+IBUS_DAEMON_PID=2815

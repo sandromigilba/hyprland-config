@@ -1,6 +1,0 @@
-2026-07-11 00:40:44.285 [error] #5: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
-2026-07-11 00:40:44.287 [error] #6: https://api.github.com/copilot_internal/managed_settings - error GET Failed to fetch
-2026-07-11 00:40:44.330 [error] #8: https://api.github.com/copilot_internal/managed_settings - error GET Failed to fetch
-2026-07-11 00:40:44.337 [error] #7: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch
-2026-07-11 00:40:44.338 [error] #9: https://api.github.com/copilot_internal/managed_settings - error GET Failed to fetch
-2026-07-11 00:40:44.352 [error] #10: https://api.github.com/copilot_internal/v2/token - error GET Failed to fetch

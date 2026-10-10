@@ -14,7 +14,7 @@ SPEED = 0.20
 class Marquee:
 
     def __init__(self):
-        self.title = "Welcome back master!!"
+        self.title = "Welcome"
         self.offset = 0
         self.pause = True
         self.lock = threading.Lock()
@@ -23,7 +23,7 @@ class Marquee:
         title = title.strip()
 
         if not title:
-            title = "Desktop"
+            title = "Welcome"
 
         with self.lock:
             if title != self.title:

@@ -1,7 +1,0 @@
-2026-07-11 00:40:37.669 [info] StorageMainService: creating application shared storage
-2026-07-11 00:40:37.863 [info] [shared storage] Creating shared storage database at '/home/kanbara/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
-2026-07-11 00:40:37.865 [info] [shared storage] Initializing fallback application storage (path: /home/kanbara/.config/Code - OSS/User/globalStorage/state.vscdb)
-2026-07-11 00:40:37.895 [info] [shared storage] Fallback application storage initialized with 73 items
-2026-07-11 00:40:37.902 [info] update#setState disabled
-2026-07-11 00:40:37.903 [info] update#ctor - updates are disabled as there is no update URL
-2026-07-11 00:40:48.409 [info] Extension host with pid 4802 exited with code: 0, signal: unknown.

@@ -26,36 +26,40 @@
             "file:///home/kanbara/.config/wofi": "__default__profile__",
             "file:///home/kanbara/Documents/.config": "__default__profile__",
             "file:///home/kanbara/Documents/sandrofiles/code/registrasi-mahasiswa-baru-laravel": "__default__profile__",
-            "file:///home/kanbara/Documents/sandrofiles/code/firebug": "__default__profile__"
+            "file:///home/kanbara/Documents/sandrofiles/code/firebug": "__default__profile__",
+            "file:///home/kanbara/Documents/sandrofiles/code/ascii-clock": "__default__profile__",
+            "file:///home/kanbara/Documents/sandrofiles/code/life-balancer": "__default__profile__",
+            "file:///home/kanbara/Documents/sandrofiles/code/quotes": "__default__profile__",
+            "file:///run/media/kanbara/exFAT%20Hardi/juragankambing-app": "__default__profile__",
+            "file:///home/kanbara/.local/share/applications": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "theme": "vs-dark",
-    "themeBackground": "#1a1b26",
+    "themeBackground": "#000000",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#787c99",
-            "background": "#1a1b26",
-            "editorBackground": "#1a1b26",
-            "titleBarBackground": "#16161e",
-            "titleBarBorder": "#101014",
-            "activityBarBackground": "#16161e",
-            "activityBarBorder": "#16161e",
-            "sideBarBackground": "#16161e",
-            "sideBarBorder": "#101014",
-            "statusBarBackground": "#16161e",
-            "statusBarBorder": "#101014",
-            "statusBarNoFolderBackground": "#16161e",
-            "windowBorder": "#0d0f17"
+            "foreground": "#c0c0c0",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#000000",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#000000"
         },
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 235,
+            "sideBarWidth": 228,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -63,8 +67,8 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 235,
-            "auxiliaryBarWidth": 235,
+            "sideBarWidth": 228,
+            "auxiliaryBarWidth": 170,
             "workspaces": {
                 "25ec98ca86e902aaa06989c6b8bb5b9d": {
                     "sideBarVisible": true,
@@ -114,9 +118,29 @@
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 },
+                "81b3c560e140ced8157438615496930b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "9d863ef089a825db52dfd704c1b484d0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "f4ed64959545be0d39e41d113caacb62": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "111f14d4970056923963ed9ec1f6d00e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
                 "1bb2297ea83cd68dd791e6f48c12800e": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
+                },
+                "e1f8440559713794f11d6d23790f5ae6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
                 }
             }
         }
@@ -129,8 +153,8 @@
                 "mode": 0,
                 "x": 1,
                 "y": 0,
-                "width": 910,
-                "height": 932
+                "width": 1920,
+                "height": 1080
             }
         },
         "openedWindows": []

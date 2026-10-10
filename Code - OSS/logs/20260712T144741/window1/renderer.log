@@ -1,5 +1,0 @@
-2026-07-12 14:47:44.375 [info] Started local extension host with pid 14226.
-2026-07-12 14:47:46.489 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-07-12 14:47:48.287 [info] [perf] Render performance baseline is 50ms
-2026-07-12 14:47:51.489 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
-2026-07-12 14:47:57.208 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy

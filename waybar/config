@@ -89,7 +89,7 @@
         "exec": "~/.config/waybar/scripts/window.py",
         "return-type": "json",
             "rewrite": {
-                "^\\s*$": "Welcome back master!!"
+                "^\\s*$": "Hello"
         }
     },
 
